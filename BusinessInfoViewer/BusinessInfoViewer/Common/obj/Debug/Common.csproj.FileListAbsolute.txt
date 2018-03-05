@@ -1,0 +1,4 @@
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\BusinessInfoViewer.Common.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\BusinessInfoViewer.Common.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\BusinessInfoViewer.Common.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\BusinessInfoViewer.Common.pdb

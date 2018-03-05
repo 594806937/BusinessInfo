@@ -1,0 +1,61 @@
+#Zoomtoolbar{
+    /*right:40px;*/
+}
+#toolbar2{
+    left:30px;
+}
+#nav{
+    margin-bottom:10px;
+}
+#nav_bar{
+    padding-left: 15px
+}
+body{
+    background:#285e8e;
+}
+.modal-content{
+    position:relative;
+    top: 8rem;
+}
+#footer{
+    width:100%;
+    position:absolute;
+    bottom:3%;
+    padding:4px;
+    font-weight:bold;
+    font-size:13px;
+    margin:0 auto;
+    /*background: #8d8888;*/
+}
+#footer span{
+    display: block;
+    width:60rem;
+    margin: 0 auto;
+}
+.ver_default{
+    height:10px;
+    padding-top:3px;
+    font-size: 12px;
+    color:#ac2925;
+    visibility:hidden;
+}
+.ver_info{
+    color:#B87D00;
+    visibility:visible;
+}
+.ver_err{
+    color:#ac2925;
+    visibility:visible;
+}
+div.panel{
+    background:#D3D3D3;
+    border-radius:5px;
+}
+#panel_body_row{
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+}
+#panel_body_row .row{
+    padding-left:-22px;
+    padding-right:-22px;
+}

@@ -1,0 +1,5 @@
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Model\bin\Debug\BusinessInfoViewer.Model.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Model\bin\Debug\BusinessInfoViewer.Model.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Model\obj\Debug\BusinessInfoViewer.Model.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Model\obj\Debug\BusinessInfoViewer.Model.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
