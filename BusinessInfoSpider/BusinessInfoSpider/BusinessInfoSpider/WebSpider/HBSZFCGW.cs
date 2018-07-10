@@ -33,7 +33,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             for (int i = 1; i < 5; i++)
             {
-                string url = @"http://www.ccgp-hebei.gov.cn/zfcg/web/getBidingList_" + i + ".html#";
+                string url = @"http://www.ccgp-hebei.gov.cn/province/cggg/zbgg/index_" + i + ".html";
                 bool midResult = HandleBusinessInfo(url);
                 //记录日志
             }
@@ -68,8 +68,13 @@ namespace BusinessInfoSpider.WebSpider
                         info.Title = aList[0].Text();
                     }
                     string codeString = trList[i].GetAttribute("onclick");
-                    string code = codeString.Substring(codeString.IndexOf("'") + 1, 6);
-                    info.DetileURL = "http://www.ccgp-hebei.gov.cn/zfcg/1/bidingAnncDetail_" + code + ".html";
+                    var traList = trList[i].QuerySelectorAll("a");
+                    if (traList.Length > 0)
+                    {
+                        string detileinfo = traList[0].GetAttribute("href").TrimStart('.');
+                        info.DetileURL = "http://www.ccgp-hebei.gov.cn/province/cggg/zbgg" + detileinfo;
+                        info.Content = GetDetileByURL(info.DetileURL);
+                    }
                     info.Content = GetDetileByURL(info.DetileURL);
                     var spanList = trList[i + 1].QuerySelectorAll("span");
                     if (spanList.Length > 0)

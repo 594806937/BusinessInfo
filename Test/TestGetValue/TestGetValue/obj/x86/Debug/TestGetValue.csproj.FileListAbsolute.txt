@@ -20,3 +20,6 @@ D:\1.项目\7.投标信息发布\Code\Test\TestGetValue\TestGetValue\obj\x86\Deb
 D:\1.项目\7.投标信息发布\Code\Test\TestGetValue\TestGetValue\obj\x86\Debug\TestGetValue.exe
 D:\1.项目\7.投标信息发布\Code\Test\TestGetValue\TestGetValue\obj\x86\Debug\TestGetValue.pdb
 D:\1.项目\7.投标信息发布\Code\Test\TestGetValue\TestGetValue\bin\Debug\MySql.Data.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\Test\TestGetValue\TestGetValue\bin\Debug\TestGetValue.exe.config
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\Test\TestGetValue\TestGetValue\obj\x86\Debug\TestGetValue.exe
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\Test\TestGetValue\TestGetValue\obj\x86\Debug\TestGetValue.pdb
