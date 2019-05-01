@@ -49,3 +49,5 @@ D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessIn
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessInfoSpider\BusinessInfoSpider\obj\x86\Debug\BusinessInfoSpider.Form1.resources
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessInfoSpider\BusinessInfoSpider\obj\x86\Debug\BusinessInfoSpider.Properties.Resources.resources
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessInfoSpider\BusinessInfoSpider\obj\x86\Debug\BusinessInfoSpider.csproj.GenerateResource.Cache
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessInfoSpider\BusinessInfoSpider\bin\Debug\log4net.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoSpider\BusinessInfoSpider\BusinessInfoSpider\bin\Debug\log4net.config

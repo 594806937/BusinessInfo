@@ -12,3 +12,17 @@ D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\DALF
 D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DBUtility.dll
 D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.MySQLDAL.pdb
 D:\1.项目\7.投标信息发布\Code\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DBUtility.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DALFactory.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DALFactory.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.IDAL.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.Model.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.MySQLDAL.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\MySql.Data.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DBUtility.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.MySQLDAL.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.IDAL.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.Model.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\bin\Debug\BusinessInfoViewer.DBUtility.pdb
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\obj\Debug\BusinessInfoViewer.DALFactory.dll
+D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\DALFactory\obj\Debug\BusinessInfoViewer.DALFactory.pdb

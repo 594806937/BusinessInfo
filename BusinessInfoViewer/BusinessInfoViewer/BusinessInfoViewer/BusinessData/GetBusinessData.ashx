@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using System.Web;
+using BusinessInfoViewer.Common;
 using Jayrock.Json;
 
 public class GetBusinessData : IHttpHandler
@@ -11,8 +12,16 @@ public class GetBusinessData : IHttpHandler
     {
         context.Response.ContentType = "text/plain";
         BusinessInfoViewer.BLL.BusinessInfo bll = new BusinessInfoViewer.BLL.BusinessInfo();
+        string[] defaultkey = ConfigHelper.GetConfigString("KeyWords") == null ? null : ConfigHelper.GetConfigString("KeyWords").Split(';');
+        List<string> keywordList = new List<string>();
+        if (defaultkey == null)
+            defaultkey = new[] { "地理", "信息系统", "GIS", "软件", "国土调查", "测绘", "信息化" };
+        for (int i = 0; i < defaultkey.Length; i++)
+        {
+            keywordList.Add(defaultkey[i]);
+        }
         List<BusinessInfoViewer.Model.BusinessInfoEx> list =
-            bll.SearchKeyWordEx(new List<string>() { "地理", "信息系统", "GIS", "软件", "地灾", "测绘", "国土", "信息化" });
+            bll.SearchKeyWordEx(keywordList);
         JsonTextWriter writer = new JsonTextWriter();
         writer.WriteStartObject();
         writer.WriteMember("data");

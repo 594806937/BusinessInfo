@@ -34,11 +34,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.logBox = new System.Windows.Forms.RichTextBox();
+            this.Txt_Process = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(406, 12);
+            this.simpleButton1.Location = new System.Drawing.Point(406, 161);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(87, 32);
             this.simpleButton1.TabIndex = 0;
@@ -85,11 +87,30 @@
             this.logBox.TabIndex = 5;
             this.logBox.Text = "";
             // 
+            // Txt_Process
+            // 
+            this.Txt_Process.Location = new System.Drawing.Point(444, 3);
+            this.Txt_Process.Name = "Txt_Process";
+            this.Txt_Process.Size = new System.Drawing.Size(57, 22);
+            this.Txt_Process.TabIndex = 6;
+            this.Txt_Process.Text = "4";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(399, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 14);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "线程数";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(505, 277);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Txt_Process);
             this.Controls.Add(this.logBox);
             this.Controls.Add(this.progressBar2);
             this.Controls.Add(this.label2);
@@ -111,6 +132,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.RichTextBox logBox;
+        private System.Windows.Forms.TextBox Txt_Process;
+        private System.Windows.Forms.Label label3;
 
 
     }

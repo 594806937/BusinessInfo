@@ -17,9 +17,6 @@ namespace BusinessInfoViewer.MySQLDAL
         /// <returns></returns>
         public List<Model.BusinessInfo> SearchKeyWord(List<string> keywordList)
         {
-            if (keywordList.Count == 0)
-                //应该提取到配置项
-                keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "地灾", "测绘", "国土", "资源" };
             StringBuilder sb = new StringBuilder();
             sb.Append("Select * From business where business.BusinessID in(");
             sb.Append("select BusinessID from View_QueryKeyWord where");
@@ -87,7 +84,7 @@ namespace BusinessInfoViewer.MySQLDAL
             }
             sb.Append(") as degree");
             sb.Append(
-                " from view_querykeyword as v) as m where business.BusinessID = m.BusinessID");
+                " from view_querykeyword as v) as m where business.BusinessID = m.BusinessID and degree>0.1 Order by degree desc");
             /*select business.*,(m.degree/2) as dependcy from business,(
               select v.BusinessID,v.BusinessTitle,
               (case WHEN LOCATE('地理信息',v.BusinessTitle)>0 then 1 ELSE 0 end +  

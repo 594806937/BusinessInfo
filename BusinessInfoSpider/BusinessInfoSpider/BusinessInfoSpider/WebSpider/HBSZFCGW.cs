@@ -29,7 +29,7 @@ namespace BusinessInfoSpider.WebSpider
         /// <summary>
         /// 开始处理
         /// </summary>
-        public override void StartAnalyse()
+        public override void StartAnalyse(int processcount)
         {
             for (int i = 1; i < 5; i++)
             {
@@ -73,9 +73,9 @@ namespace BusinessInfoSpider.WebSpider
                     {
                         string detileinfo = traList[0].GetAttribute("href").TrimStart('.');
                         info.DetileURL = "http://www.ccgp-hebei.gov.cn/province/cggg/zbgg" + detileinfo;
-                        info.Content = GetDetileByURL(info.DetileURL);
+                        BuildDetileinfo(info);
                     }
-                    info.Content = GetDetileByURL(info.DetileURL);
+                    BuildDetileinfo(info);
                     var spanList = trList[i + 1].QuerySelectorAll("span");
                     if (spanList.Length > 0)
                     {
@@ -96,14 +96,14 @@ namespace BusinessInfoSpider.WebSpider
         /// <summary>
         /// 获取详细信息
         /// </summary>
-        /// <param name="url"></param>
+        /// <param name="info"></param>
         /// <returns></returns>
-        protected override string GetDetileByURL(string url)
+        protected override void BuildDetileinfo(BusinessInfo info)
         {
             StringBuilder sb = new StringBuilder();
-            if (string.IsNullOrEmpty(url))
-                return "";
-            string html = GetHTML(url);
+            if (string.IsNullOrEmpty(info.DetileURL))
+                return;
+            string html = GetHTML(info.DetileURL);
             HtmlParser parser = new HtmlParser();
             IHtmlDocument document = parser.Parse(html);
             List<AngleSharp.Dom.IElement> spanlist =
@@ -111,12 +111,12 @@ namespace BusinessInfoSpider.WebSpider
                     .Where(span => span.GetAttribute("class") == "txt7")
                     .ToList();
             if (spanlist.Count <= 0)
-                return "";
+                return;
             for (int i = 0; i < spanlist.Count; i++)
             {
                 sb.Append(spanlist[i].Text());
             }
-            return sb.ToString().Replace(" ", "");
+            info.Content = sb.ToString().Replace(" ", "");
         }
     }
 }

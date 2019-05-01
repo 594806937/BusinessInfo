@@ -25,7 +25,7 @@ namespace BusinessInfoSpider.WebSpider
         /// <summary>
         /// 开始处理
         /// </summary>
-        public override void StartAnalyse()
+        public override void StartAnalyse(int processcount)
         {
             for (int i = 1; i < 5; i++)
             {
@@ -63,9 +63,9 @@ namespace BusinessInfoSpider.WebSpider
                     {
                         info.Title = aList[0].GetAttribute("Title");
                         info.DetileURL = string.Format("http://www.zycg.gov.cn{0}", aList[0].GetAttribute("href"));
-                    }var spanList = liList[i].QuerySelectorAll("span");
+                    } var spanList = liList[i].QuerySelectorAll("span");
                     info.ReleaseTime = DateTime.Parse(StringHandler.ReplaceStringExtend(spanList[0].Text()));
-                    info.Content = GetDetileByURL(info.DetileURL);
+                    BuildDetileinfo(info);
                     info.Source = this.Name;
                     bool insertSQL = InsertInfo(info);
                 }
@@ -79,14 +79,14 @@ namespace BusinessInfoSpider.WebSpider
         /// <summary>
         /// 获取详细信息
         /// </summary>
-        /// <param name="url"></param>
+        /// <param name="info"></param>
         /// <returns></returns>
-        protected override string GetDetileByURL(string url)
+        protected override void BuildDetileinfo(BusinessInfo info)
         {
             StringBuilder sb = new StringBuilder();
-            if (string.IsNullOrEmpty(url))
-                return "";
-            string html = GetHTML(url);
+            if (string.IsNullOrEmpty(info.DetileURL))
+                return;
+            string html = GetHTML(info.DetileURL);
             HtmlParser parser = new HtmlParser();
             IHtmlDocument document = parser.Parse(html);
             List<AngleSharp.Dom.IElement> list =
@@ -94,14 +94,14 @@ namespace BusinessInfoSpider.WebSpider
                     .Where(script => script.GetAttribute("id") == "container")
                     .ToList();
             if (list.Count <= 0)
-                return "";
+                return;
             IHtmlDocument midDocument = parser.Parse(list[0].InnerHtml);
             List<AngleSharp.Dom.IElement> spanList = midDocument.QuerySelectorAll("span").ToList();
             for (int i = 0; i < spanList.Count; i++)
             {
                 sb.Append(spanList[i].Text());
             }
-            return sb.ToString().Replace(" ", "");
+            info.Content = sb.ToString().Replace(" ", "");
         }
     }
 }

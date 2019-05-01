@@ -44,6 +44,11 @@ namespace BusinessInfoSpider.Model
         /// </summary>
         public string Content { get; set; }
         /// <summary>
+        /// 项目金额
+        /// </summary>
+        public string Money { get; set; }
+
+        /// <summary>
         /// 是否有数据
         /// </summary>
         public bool KeyFlag { get; set; }

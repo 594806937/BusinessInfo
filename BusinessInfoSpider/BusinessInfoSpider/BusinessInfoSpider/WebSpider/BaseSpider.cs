@@ -29,12 +29,13 @@ namespace BusinessInfoSpider.WebSpider
 
             List<CommandInfo> commandList = new List<CommandInfo>();
             CommandInfo insertBusiness = new CommandInfo();
-            insertBusiness.CommandText = "Insert Into business(BusinessID,BusinessTitle,ReleaseCom,ReleaseLocation,ReleaseTime,DetileURL,Source) Values (?BusinessID,?BusinessTitle,?ReleaseCom,?ReleaseLocation,?ReleaseTime,?DetileURL,?Source);";
+            insertBusiness.CommandText = "Insert Into business(BusinessID,BusinessTitle,ReleaseCom,Money,ReleaseLocation,ReleaseTime,DetileURL,Source) Values (?BusinessID,?BusinessTitle,?ReleaseCom,?Money,?ReleaseLocation,?ReleaseTime,?DetileURL,?Source);";
             MySqlParameter[] insertBusinessParameters = new MySqlParameter[]
             {
                 new MySqlParameter("BusinessID",MySqlDbType.VarChar,50),
                 new MySqlParameter("BusinessTitle",MySqlDbType.VarChar,200),
                 new MySqlParameter("ReleaseCom",MySqlDbType.VarChar,200),
+                new MySqlParameter("Money",MySqlDbType.VarChar,50),
                 new MySqlParameter("ReleaseLocation",MySqlDbType.VarChar,200),
                 new MySqlParameter("ReleaseTime",MySqlDbType.Date),
                 new MySqlParameter("DetileURL",MySqlDbType.VarChar,500),
@@ -43,10 +44,11 @@ namespace BusinessInfoSpider.WebSpider
             insertBusinessParameters[0].Value = info.GUID;
             insertBusinessParameters[1].Value = info.Title ?? "";
             insertBusinessParameters[2].Value = info.ComName ?? "";
-            insertBusinessParameters[3].Value = info.Location ?? "";
-            insertBusinessParameters[4].Value = info.ReleaseTime;
-            insertBusinessParameters[5].Value = info.DetileURL ?? "";
-            insertBusinessParameters[6].Value = info.Source ?? "";
+            insertBusinessParameters[3].Value = info.Money ?? "";
+            insertBusinessParameters[4].Value = info.Location ?? "";
+            insertBusinessParameters[5].Value = info.ReleaseTime;
+            insertBusinessParameters[6].Value = info.DetileURL ?? "";
+            insertBusinessParameters[7].Value = info.Source ?? "";
 
             insertBusiness.Parameters = insertBusinessParameters;
             commandList.Add(insertBusiness);
@@ -63,6 +65,7 @@ namespace BusinessInfoSpider.WebSpider
             insertDetileParameters[0].Value = Guid.NewGuid().ToString();
             insertDetileParameters[1].Value = info.GUID;
             insertDetileParameters[2].Value = info.DetileURL ?? "";
+            info.Content = info.Content.Length > 20000 ? info.Content.Substring(0, 20000) : info.Content;
             insertDetileParameters[3].Value = info.Content ?? "";
             insertDetile.Parameters = insertDetileParameters;
             commandList.Add(insertDetile);
@@ -103,6 +106,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             string result = "";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Timeout = 180000;//10秒钟获取
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream htmlStream = response.GetResponseStream();
             StreamReader reader = new StreamReader(htmlStream, Encoding.UTF8);
@@ -134,18 +138,18 @@ namespace BusinessInfoSpider.WebSpider
 
         /// <summary>
         /// 解析信息
+        /// <param name="processcount">启动抓取线程数</param>
         /// </summary>
-        public virtual void StartAnalyse()
+        public virtual void StartAnalyse(int processcount)
         {
         }
         /// <summary>
         /// 根据招标详细信息地址获取招标详细信息
         /// </summary>
-        /// <param name="url">招标详细信息地址</param>
+        /// <param name="info">招标详细信息地址</param>
         /// <returns>相应内容</returns>
-        protected virtual string GetDetileByURL(string url)
+        protected virtual void BuildDetileinfo(BusinessInfo info)
         {
-            return "";
         }
     }
 }

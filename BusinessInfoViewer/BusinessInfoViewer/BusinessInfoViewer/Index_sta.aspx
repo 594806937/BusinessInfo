@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>北京中地时空数码科技有限公司-商机抓取系统</title>
+    <title>商机抓取系统</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script type="text/javascript" src="js/html5shiv.js"></script>
     <script type="text/javascript" src="js/respond.min.js"></script>
@@ -29,7 +29,7 @@
                 },
                 "ajax": "BusinessData/GetBusinessData.ashx",
                 "display": "row-border",
-                "pageLength": "25",
+                "pageLength": "20",
                 "columns": [
                     { "data": "title", "width": "55%" },
                     { "data": "degree", "width": "5%" },
@@ -47,8 +47,6 @@
                     }
                 }]
             });
-
-
         });
     </script>
 </head>
@@ -58,8 +56,8 @@
       <!-- todo 响应式收起时-->
       <div class="navbar-header">
         <!--todo logo名称-->
-        <a href="Index.aspx" class="navbar-brand">
-            <img src="img/logo.png" alt="BRAND" style="margin-top: -10px"/>
+        <a href="" class="navbar-brand">
+            <img src=""  style="margin-top: -10px"/>
         </a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed_humbeger">
           <span class="sr-only">Toggle navigation</span>
@@ -72,23 +70,16 @@
       <div class="collapse navbar-collapse" id="collapsed_humbeger">
         <!-- todo 响应式套航条按钮-->
         <ul class="nav navbar-nav" id="nav_col">
-          <li ><a href="Index.aspx">主页</a></li>
-          <li><a href="Index.aspx" >三维地球</a></li>
-          <li><a href="Index_2d.aspx">二维地图</a></li>
           <li class="active"><a href="Index_sta.aspx">商机抓取数据</a></li>
         </ul>
-        <!-- todo 登陆注册-->
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#login_model" data-toggle="modal">登陆</a></li>
-          <li><a href="#register_model" data-toggle="modal">注册</a></li>
-        </ul>
         <!-- todo 搜索表单-->
-        <form class="navbar-form navbar-right" role="search">
+        <form class="navbar-form navbar-right" runat="server" role="search">
           <div class="form-group has-feedback">
             <input type="text" class="form-control" placeholder="Search">
             <span class="glyphicon glyphicon-search form-control-feedback"></span>
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">提交查询</button>
+          <input type="button" runat="server" class="btn btn-default" OnServerClick="Export" name="导出Excel" title="导出Excel"/>
         </form>
       </div>
     </nav>
@@ -105,7 +96,7 @@
                         <div class="col-xs-12" style="height: 630px;">
                             <div class="tab-content" id="main_content">
                                 <div role="tabpanel" class="tab-pane active" id="sta_data">
-                                    <table id="businessTable" class="display" cellspacing="0" width="100%">
+                                    <table id="businessTable" class="row-border" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
                                                 <th>
@@ -157,113 +148,7 @@
                     </div>
                 </div>
                 <div id="footer">
-                    <span>联系我们：©北京中地数码有限公司 公司地址：北京海淀区上地三街9号嘉华大厦C座1201室</span>
-                </div>
-            </div>
-        </div>
-        <!-- todo 登陆模态框 -->
-        <div class="modal fade bs-example-modal-sm" id="login_model" tabindex="-1" role="dialog"
-            aria-labelledby="login" aria-hidden="true">
-            <!--半透明背景层-->
-            <div class="modal-dialog modal-sm">
-                <!--背景/边框/阴影-->
-                <div class="modal-content">
-                    <!-- 头部-->
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="login">
-                            登陆</h4>
-                    </div>
-                    <!-- 主体-->
-                    <div class="modal-body">
-                        <!-- 添加水平表单-->
-                        <form class="form-horizontal" role="form">
-                        <div class="form-group has-feedback">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <input type="text" class="form-control" id="log_una" placeholder="请输入用户名">
-                                <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                            </div>
-                        </div>
-                        <div class="form-group has-feedback">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <input type="password" class="form-control" id="log_psd" placeholder="请输入密码">
-                                <span class="glyphicon glyphicon-cloud form-control-feedback left"></span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox">
-                                        记住密码
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                    <!-- 尾部-->
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary btn-block">
-                            登陆</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- todo 注册模态框 -->
-        <div class="modal fade bs-example-modal-sm" id="register_model" tabindex="-1" role="dialog"
-            aria-labelledby="register" aria-hidden="true">
-            <!--半透明背景层-->
-            <div class="modal-dialog modal-sm">
-                <!--背景/边框/阴影-->
-                <div class="modal-content">
-                    <!-- 头部-->
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span aria-hidden="true" id="mod_cls">&times;</span> <span class="sr-only">Close</span>
-                        </button>
-                        <h4 class="modal-title" id="register">
-                            注册</h4>
-                    </div>
-                    <!-- 主体-->
-                    <div class="modal-body">
-                        <!-- 添加水平表单-->
-                        <form class="form-horizontal" role="form">
-                        <div class="form-group has-feedback" id="from_group1">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <input type="text" class="form-control" id="reg_una" placeholder="请输入用户名">
-                                <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                            </div>
-                            <div class="col-sm-offset-1 col-sm-10 ver_default" id="ver_una">
-                                用户名为空，请重新输入
-                            </div>
-                        </div>
-                        <div class="form-group has-feedback" id="from_group2">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <input type="password" class="form-control" id="reg_psd" placeholder="请输入密码">
-                                <span class="glyphicon glyphicon-cloud form-control-feedback left"></span>
-                            </div>
-                            <div class="col-sm-offset-1 col-sm-10 ver_default" id="ver_psd">
-                                密码为空，请重新输入
-                            </div>
-                        </div>
-                        <div class="form-group has-feedback" id="from_group3">
-                            <div class="col-sm-offset-1 col-sm-10">
-                                <input type="password" class="form-control" id="reg_psd_again" placeholder="请再次输入密码">
-                                <span class="glyphicon glyphicon-cloud form-control-feedback left"></span>
-                            </div>
-                            <div class="col-sm-offset-1 col-sm-10 ver_default" id="ver_psd_again">
-                                验证密码为空，请重新输入
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                    <!-- 尾部-->
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary btn-block">
-                            登陆</button>
-                    </div>
+                    <span>联系我们</span>
                 </div>
             </div>
         </div>

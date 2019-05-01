@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading;
 using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
 using AngleSharp.Extensions;
 using AngleSharp.Parser.Html;
 using BusinessInfoSpider.Model;
 using BusinessInfoSpider.Utility;
+using DevExpress.Utils.Paint;
 
 namespace BusinessInfoSpider.WebSpider
 {
@@ -22,17 +25,63 @@ namespace BusinessInfoSpider.WebSpider
         {
             get { return "http://www.ccgp.gov.cn/"; }
         }
+
+        private int total = 100;
+        private int process = 4;//线程数
+        private int currentStep = 0;//当前处理到第多少个
+        private int successcount = 0;//成功结果
+        private int failcount = 0;//失败结果
         /// <summary>
         /// 开始处理
         /// </summary>
-        public override void StartAnalyse()
+        public override void StartAnalyse(int processcount)
         {
-            for (int i = 1; i < 5; i++)
+            process = processcount;
+            string dateNow = DateTime.Now.ToString("yyyy:MM:dd");
+            string dateBefore7Days = DateTime.Now.AddDays(-7).ToString("yyyy:MM:dd");
+            //获取有多少个信息
+            string firsturl = string.Format(@"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={0}&end_time={1}&timeType=2&displayZone=&zoneId=&pppStatus=0&agentName=", dateNow, dateBefore7Days);
+            string firstpagehtml = GetHTML(firsturl);
+            HtmlParser parser = new HtmlParser();
+            IHtmlDocument document = parser.Parse(firstpagehtml);
+            List<IElement> pagerList =
+                document.QuerySelectorAll("p")
+                    .Where(table => table.GetAttribute("class") == "pager")
+                    .ToList();
+            if (pagerList.Count > 0)
             {
-                
-                string url = @"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2018%3A02%3A11&end_time=2018%3A03%3A14&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=" + i;
-                bool midResult = HandleBusinessInfo(url);
-                //记录日志
+                string pagertxt = pagerList[0].Html();
+                if (pagertxt != string.Empty)
+                {
+                    string[] pagerarr = pagertxt.Split(':');
+                    if (pagerarr.Length > 0)
+                    {
+                        total = Convert.ToInt32(pagerarr[1].Split(',')[0]);
+                    }
+                }
+            }
+            AppLog.Info(string.Format("{0}:检测到{1}个待抓取页面，处理线程数:{2}", Name, total, processcount));
+            for (int m = 0; m < processcount; m++)
+            {
+                Thread tr = new Thread(new ParameterizedThreadStart(ProcessByThread));
+                tr.Start(m);
+                AppLog.Info(string.Format("{0}:已启动第{1}个线程开始处理", Name, m));
+                Thread.Sleep(60000);
+            }
+        }
+
+        private void ProcessByThread(object index)
+        {
+            int newindex = (int)index;
+            string dateNow = DateTime.Now.ToString("yyyy:MM:dd");
+            string dateBefore7Days = DateTime.Now.AddDays(-7).ToString("yyyy:MM:dd");
+            for (int i = newindex * (total / process) + 1; i <= (newindex + 1) * (total / process); i++)
+            {
+                string url =
+                    string.Format(
+                        @"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index={0}&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={1}&end_time={2}&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=",
+                        i, dateNow, dateBefore7Days);
+                HandleBusinessInfo(url);
             }
         }
 
@@ -41,18 +90,23 @@ namespace BusinessInfoSpider.WebSpider
         /// </summary>
         /// <param name="url"></param>
         /// <returns></returns>
-        private bool HandleBusinessInfo(string url)
+        private void HandleBusinessInfo(object url)
         {
             bool result = true;
+            string url_string = (string)url;
             try
             {
-                string html = GetHTML(url);
+                string html = GetHTML(url_string);
                 HtmlParser parser = new HtmlParser();
                 IHtmlDocument document = parser.Parse(html);
                 List<AngleSharp.Dom.IElement> divList =
                     document.QuerySelectorAll("ul")
-                        .Where(table => table.GetAttribute("class") == "lby-list")
+                        .Where(table => table.GetAttribute("class") == "vT-srch-result-list-bid")
                         .ToList();
+                if (divList.Count == 0)
+                {
+                    throw new Exception(string.Format("处理失败,未获取到Div信息{0}:{1}", Name, url));
+                }
                 IElement tableElement = divList[0];
                 var liList = tableElement.GetElementsByTagName("li");
                 List<BusinessInfo> businessList = new List<BusinessInfo>();
@@ -62,47 +116,76 @@ namespace BusinessInfoSpider.WebSpider
                     var aList = liList[i].QuerySelectorAll("a");
                     if (aList.Length > 0)
                     {
-                        info.Title = aList[0].GetAttribute("Title");
-                        info.DetileURL = string.Format("http://www.zycg.gov.cn{0}", aList[0].GetAttribute("href"));
-                    } var spanList = liList[i].QuerySelectorAll("span");
-                    info.ReleaseTime = DateTime.Parse(StringHandler.ReplaceStringExtend(spanList[0].Text()));
-                    info.Content = GetDetileByURL(info.DetileURL);
+                        info.Title = aList[0].Text().Replace('\n', ' ').Trim(' ');
+                        info.DetileURL = aList[0].GetAttribute("href");
+                    }
+                    var spanList = liList[i].QuerySelectorAll("span");
+                    string time = spanList[0].Text().Split('|')[0];
+                    info.ComName = spanList[0].Text().Split('|')[1].Replace('\n', ' ').Trim(' ');
+                    info.ReleaseTime = DateTime.Parse(time);
+                    BuildDetileinfo(info);
                     info.Source = this.Name;
+
                     bool insertSQL = InsertInfo(info);
                 }
+                successcount++;
+                AppLog.Info(string.Format("处理完成{0}:{1}", Name, url));
             }
             catch (Exception ex)
             {
                 result = false;
+                failcount++;
+                AppLog.Info(string.Format("处理失败{0}:{1}", url, ex.Message));
             }
-            return result;
+            finally
+            {
+                currentStep++;
+                AppLog.Info(string.Format("{0}/{1}已处理完成，成功:{2}，失败:{3}", currentStep, total, successcount, failcount));
+            }
         }
         /// <summary>
         /// 获取详细信息
         /// </summary>
-        /// <param name="url"></param>
+        /// <param name="info"></param>
         /// <returns></returns>
-        protected override string GetDetileByURL(string url)
+        protected override void BuildDetileinfo(BusinessInfo info)
         {
             StringBuilder sb = new StringBuilder();
-            if (string.IsNullOrEmpty(url))
-                return "";
-            string html = GetHTML(url);
+            if (string.IsNullOrEmpty(info.DetileURL))
+                return;
+            string html = GetHTML(info.DetileURL);
             HtmlParser parser = new HtmlParser();
             IHtmlDocument document = parser.Parse(html);
-            List<AngleSharp.Dom.IElement> list =
-                document.QuerySelectorAll("script")
-                    .Where(script => script.GetAttribute("id") == "container")
-                    .ToList();
-            if (list.Count <= 0)
-                return "";
-            IHtmlDocument midDocument = parser.Parse(list[0].InnerHtml);
-            List<AngleSharp.Dom.IElement> spanList = midDocument.QuerySelectorAll("span").ToList();
-            for (int i = 0; i < spanList.Count; i++)
+
+            List<IElement> tablelist =
+                document.QuerySelectorAll("tr").ToList();
+            if (tablelist.Count <= 0)
+                return;
+            for (int i = 0; i < tablelist.Count; i++)
             {
-                sb.Append(spanList[i].Text());
+                IHtmlDocument trDocument = parser.Parse(tablelist[i].InnerHtml);
+                string moneycontent = trDocument.ChildNodes[0].TextContent;
+                if (moneycontent.Contains("金额"))
+                {
+                    string midresult = moneycontent.Substring(moneycontent.IndexOf('￥') + 1,
+                        moneycontent.Length - moneycontent.IndexOf('￥') - 1);
+                    string finalresult = midresult.Substring(0, midresult.IndexOf("万"));
+                    info.Money = finalresult;
+                    break;
+                }
             }
-            return sb.ToString().Replace(" ", "");
+            List<IElement> list =
+                document.QuerySelectorAll("div")
+                    .Where(div => div.GetAttribute("class") == "vF_detail_content").ToList();
+            if (list.Count <= 0)
+                return;
+            IHtmlDocument midDocument = parser.Parse(list[0].InnerHtml);
+            List<AngleSharp.Dom.IElement> pList = midDocument.QuerySelectorAll("p").ToList();
+            for (int i = 0; i < pList.Count; i++)
+            {
+                sb.Append(pList[i].Text());
+            }
+            info.Content = sb.ToString().Replace(" ", "");
         }
     }
 }
