@@ -48,6 +48,10 @@ namespace BusinessInfoViewer.Model
         /// 来源网站
         /// </summary>
         public string Source { get; set; }
+        /// <summary>
+        /// 项目金额
+        /// </summary>
+        public string Money { get; set; }
     }
     /// <summary>
     /// 拓展了匹配度的BusinessInfo，用于查询结果返回

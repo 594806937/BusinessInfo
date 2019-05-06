@@ -106,7 +106,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             string result = "";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.Timeout = 180000;//10秒钟获取
+            request.Timeout = 180000;//180秒钟获取
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream htmlStream = response.GetResponseStream();
             StreamReader reader = new StreamReader(htmlStream, Encoding.UTF8);

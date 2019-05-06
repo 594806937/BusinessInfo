@@ -1,0 +1,736 @@
+2019-05-04 22:20:22,457 [18364] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:4
+2019-05-04 22:20:22,488 [18364] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:20:23,720 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:23,720 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:0，失败:1
+2019-05-04 22:20:24,315 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=2&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:24,315 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 2/235已处理完成，成功:0，失败:2
+2019-05-04 22:20:25,826 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=3&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:25,826 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 3/235已处理完成，成功:0，失败:3
+2019-05-04 22:20:26,344 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=4&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:26,344 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 4/235已处理完成，成功:0，失败:4
+2019-05-04 22:20:28,250 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 5/235已处理完成，成功:1，失败:4
+2019-05-04 22:20:29,423 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=6&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:29,423 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 6/235已处理完成，成功:1，失败:5
+2019-05-04 22:20:30,611 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=7&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:30,611 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 7/235已处理完成，成功:1，失败:6
+2019-05-04 22:20:40,899 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=8&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:40,899 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 8/235已处理完成，成功:1，失败:7
+2019-05-04 22:20:49,107 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=9&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:49,107 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 9/235已处理完成，成功:1，失败:8
+2019-05-04 22:20:51,977 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=10&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:51,977 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 10/235已处理完成，成功:1，失败:9
+2019-05-04 22:20:59,651 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=11&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:20:59,651 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 11/235已处理完成，成功:1，失败:10
+2019-05-04 22:21:01,584 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=12&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:01,584 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 12/235已处理完成，成功:1，失败:11
+2019-05-04 22:21:03,070 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=13&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:03,070 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 13/235已处理完成，成功:1，失败:12
+2019-05-04 22:21:07,007 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=14&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:07,007 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 14/235已处理完成，成功:1，失败:13
+2019-05-04 22:21:09,058 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=15&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:09,058 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 15/235已处理完成，成功:1，失败:14
+2019-05-04 22:21:12,882 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=16&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:12,882 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 16/235已处理完成，成功:1，失败:15
+2019-05-04 22:21:20,918 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=17&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:20,918 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 17/235已处理完成，成功:1，失败:16
+2019-05-04 22:21:22,509 [18364] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第1个线程开始处理
+2019-05-04 22:21:32,430 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 18/235已处理完成，成功:2，失败:16
+2019-05-04 22:21:34,227 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 19/235已处理完成，成功:3，失败:16
+2019-05-04 22:21:37,091 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=60&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:37,091 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 20/235已处理完成，成功:3，失败:17
+2019-05-04 22:21:48,914 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 21/235已处理完成，成功:4，失败:17
+2019-05-04 22:21:53,882 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=20&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:21:53,882 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 22/235已处理完成，成功:4，失败:18
+2019-05-04 22:21:58,032 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 23/235已处理完成，成功:5，失败:18
+2019-05-04 22:22:07,749 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 24/235已处理完成，成功:6，失败:18
+2019-05-04 22:22:08,217 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=62&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:08,217 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 25/235已处理完成，成功:6，失败:19
+2019-05-04 22:22:12,712 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=63&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:12,713 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 26/235已处理完成，成功:6，失败:20
+2019-05-04 22:22:13,582 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=64&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:13,582 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 27/235已处理完成，成功:6，失败:21
+2019-05-04 22:22:16,108 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=22&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:16,108 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 28/235已处理完成，成功:6，失败:22
+2019-05-04 22:22:22,521 [18364] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第2个线程开始处理
+2019-05-04 22:22:23,146 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 29/235已处理完成，成功:7，失败:22
+2019-05-04 22:22:26,549 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 30/235已处理完成，成功:8，失败:22
+2019-05-04 22:22:30,307 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=24&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:30,307 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 31/235已处理完成，成功:8，失败:23
+2019-05-04 22:22:30,648 [13292] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=117&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:30,648 [13292] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 32/235已处理完成，成功:8，失败:24
+2019-05-04 22:22:32,143 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=25&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:32,143 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 33/235已处理完成，成功:8，失败:25
+2019-05-04 22:22:33,621 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=26&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:33,621 [10448] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 34/235已处理完成，成功:8，失败:26
+2019-05-04 22:22:34,826 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=66&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:22:34,826 [15076] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 35/235已处理完成，成功:8，失败:27
+2019-05-04 22:23:44,389 [13232] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:1
+2019-05-04 22:23:44,420 [13232] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:28:22,052 [16544] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:4
+2019-05-04 22:28:22,068 [16544] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:28:23,646 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:23,646 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:0，失败:1
+2019-05-04 22:28:24,084 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=2&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:24,084 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 2/235已处理完成，成功:0，失败:2
+2019-05-04 22:28:25,505 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=3&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:25,505 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 3/235已处理完成，成功:0，失败:3
+2019-05-04 22:28:25,959 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=4&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:25,959 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 4/235已处理完成，成功:0，失败:4
+2019-05-04 22:28:27,589 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 5/235已处理完成，成功:1，失败:4
+2019-05-04 22:28:28,558 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=6&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:28,558 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 6/235已处理完成，成功:1，失败:5
+2019-05-04 22:28:29,074 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=7&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:29,074 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 7/235已处理完成，成功:1，失败:6
+2019-05-04 22:28:30,199 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=8&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:30,199 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 8/235已处理完成，成功:1，失败:7
+2019-05-04 22:28:31,605 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=9&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:31,605 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 9/235已处理完成，成功:1，失败:8
+2019-05-04 22:28:32,402 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=10&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:32,402 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 10/235已处理完成，成功:1，失败:9
+2019-05-04 22:28:33,954 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=11&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:33,954 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 11/235已处理完成，成功:1，失败:10
+2019-05-04 22:28:34,641 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=12&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:34,641 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 12/235已处理完成，成功:1，失败:11
+2019-05-04 22:28:35,182 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=13&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:35,182 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 13/235已处理完成，成功:1，失败:12
+2019-05-04 22:28:36,245 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=14&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:36,245 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 14/235已处理完成，成功:1，失败:13
+2019-05-04 22:28:36,830 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=15&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:36,830 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 15/235已处理完成，成功:1，失败:14
+2019-05-04 22:28:37,658 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=16&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:37,658 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 16/235已处理完成，成功:1，失败:15
+2019-05-04 22:28:39,161 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=17&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:39,161 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 17/235已处理完成，成功:1，失败:16
+2019-05-04 22:28:41,224 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 18/235已处理完成，成功:2，失败:16
+2019-05-04 22:28:43,933 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 19/235已处理完成，成功:3，失败:16
+2019-05-04 22:28:44,542 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=20&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:44,542 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 20/235已处理完成，成功:3，失败:17
+2019-05-04 22:28:46,293 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 21/235已处理完成，成功:4，失败:17
+2019-05-04 22:28:47,888 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=22&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:47,888 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 22/235已处理完成，成功:4，失败:18
+2019-05-04 22:28:49,841 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 23/235已处理完成，成功:5，失败:18
+2019-05-04 22:28:50,435 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=24&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:50,435 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 24/235已处理完成，成功:5，失败:19
+2019-05-04 22:28:51,138 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=25&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:51,138 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 25/235已处理完成，成功:5，失败:20
+2019-05-04 22:28:51,646 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=26&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:51,646 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 26/235已处理完成，成功:5，失败:21
+2019-05-04 22:28:53,090 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=27&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:28:53,090 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 27/235已处理完成，成功:5，失败:22
+2019-05-04 22:29:02,956 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 28/235已处理完成，成功:6，失败:22
+2019-05-04 22:29:12,755 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 29/235已处理完成，成功:7，失败:22
+2019-05-04 22:29:14,872 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=30&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:14,872 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 30/235已处理完成，成功:7，失败:23
+2019-05-04 22:29:22,089 [16544] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第1个线程开始处理
+2019-05-04 22:29:25,230 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=31&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:25,230 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 31/235已处理完成，成功:7，失败:24
+2019-05-04 22:29:25,589 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 32/235已处理完成，成功:8，失败:24
+2019-05-04 22:29:26,877 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=60&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:26,877 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 33/235已处理完成，成功:8，失败:25
+2019-05-04 22:29:29,512 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 34/235已处理完成，成功:9，失败:25
+2019-05-04 22:29:31,043 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=62&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:31,043 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 35/235已处理完成，成功:9，失败:26
+2019-05-04 22:29:32,247 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=63&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:32,247 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 36/235已处理完成，成功:9，失败:27
+2019-05-04 22:29:32,702 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=64&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:32,702 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 37/235已处理完成，成功:9，失败:28
+2019-05-04 22:29:34,468 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 38/235已处理完成，成功:10，失败:28
+2019-05-04 22:29:35,557 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 39/235已处理完成，成功:11，失败:28
+2019-05-04 22:29:35,917 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=66&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:35,917 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 40/235已处理完成，成功:11，失败:29
+2019-05-04 22:29:42,471 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 41/235已处理完成，成功:12，失败:29
+2019-05-04 22:29:45,678 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 42/235已处理完成，成功:13，失败:29
+2019-05-04 22:29:50,434 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=34&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:50,434 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 43/235已处理完成，成功:13，失败:30
+2019-05-04 22:29:53,043 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 44/235已处理完成，成功:14，失败:30
+2019-05-04 22:29:55,761 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=69&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:55,761 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 45/235已处理完成，成功:14，失败:31
+2019-05-04 22:29:57,729 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=35&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:29:57,729 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 46/235已处理完成，成功:14，失败:32
+2019-05-04 22:30:05,699 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 47/235已处理完成，成功:15，失败:32
+2019-05-04 22:30:07,361 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=36&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:07,361 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 48/235已处理完成，成功:15，失败:33
+2019-05-04 22:30:08,330 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=71&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:08,330 [17684] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 49/235已处理完成，成功:15，失败:34
+2019-05-04 22:30:10,346 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=37&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:10,346 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 50/235已处理完成，成功:15，失败:35
+2019-05-04 22:30:11,934 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=38&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:11,934 [12316] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 51/235已处理完成，成功:15，失败:36
+2019-05-04 22:30:19,080 [12816] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:1
+2019-05-04 22:30:19,111 [12816] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:30:23,252 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:23,252 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:0，失败:1
+2019-05-04 22:30:23,690 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=2&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:23,690 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 2/235已处理完成，成功:0，失败:2
+2019-05-04 22:30:25,049 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=3&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:25,049 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 3/235已处理完成，成功:0，失败:3
+2019-05-04 22:30:25,487 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=4&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:25,487 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 4/235已处理完成，成功:0，失败:4
+2019-05-04 22:30:27,112 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 5/235已处理完成，成功:1，失败:4
+2019-05-04 22:30:28,065 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=6&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:28,065 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 6/235已处理完成，成功:1，失败:5
+2019-05-04 22:30:28,565 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=7&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:28,565 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 7/235已处理完成，成功:1，失败:6
+2019-05-04 22:30:29,566 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=8&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:29,566 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 8/235已处理完成，成功:1，失败:7
+2019-05-04 22:30:31,222 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=9&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:31,222 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 9/235已处理完成，成功:1，失败:8
+2019-05-04 22:30:31,957 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=10&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:31,957 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 10/235已处理完成，成功:1，失败:9
+2019-05-04 22:30:33,210 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=11&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:长度不能小于 0。
+参数名: length
+2019-05-04 22:30:33,210 [11652] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 11/235已处理完成，成功:1，失败:10
+2019-05-04 22:39:12,745 [4732] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:1
+2019-05-04 22:39:12,761 [4732] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:42:14,195 [15580] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:1
+2019-05-04 22:42:14,242 [15580] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:42:33,456 [18244] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:1，失败:0
+2019-05-04 22:43:37,969 [13592] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:4
+2019-05-04 22:43:38,000 [13592] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 22:43:40,584 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:1，失败:0
+2019-05-04 22:43:49,656 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 2/235已处理完成，成功:2，失败:0
+2019-05-04 22:43:54,375 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 3/235已处理完成，成功:3，失败:0
+2019-05-04 22:44:04,228 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 4/235已处理完成，成功:4，失败:0
+2019-05-04 22:44:06,104 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 5/235已处理完成，成功:5，失败:0
+2019-05-04 22:44:12,745 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 6/235已处理完成，成功:6，失败:0
+2019-05-04 22:44:22,345 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 7/235已处理完成，成功:7，失败:0
+2019-05-04 22:44:28,040 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 8/235已处理完成，成功:8，失败:0
+2019-05-04 22:44:33,135 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 9/235已处理完成，成功:9，失败:0
+2019-05-04 22:44:38,023 [13592] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第1个线程开始处理
+2019-05-04 22:44:40,014 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 10/235已处理完成，成功:10，失败:0
+2019-05-04 22:44:40,857 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 11/235已处理完成，成功:11，失败:0
+2019-05-04 22:44:45,264 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 12/235已处理完成，成功:12，失败:0
+2019-05-04 22:44:48,029 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 13/235已处理完成，成功:13，失败:0
+2019-05-04 22:44:49,873 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 14/235已处理完成，成功:14，失败:0
+2019-05-04 22:44:53,188 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 15/235已处理完成，成功:15，失败:0
+2019-05-04 22:44:54,001 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 16/235已处理完成，成功:16，失败:0
+2019-05-04 22:45:00,494 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 17/235已处理完成，成功:17，失败:0
+2019-05-04 22:45:02,525 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 18/235已处理完成，成功:18，失败:0
+2019-05-04 22:45:10,613 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 19/235已处理完成，成功:19，失败:0
+2019-05-04 22:45:11,157 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 20/235已处理完成，成功:20，失败:0
+2019-05-04 22:45:13,220 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 21/235已处理完成，成功:21，失败:0
+2019-05-04 22:45:17,850 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 22/235已处理完成，成功:22，失败:0
+2019-05-04 22:45:19,704 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 23/235已处理完成，成功:23，失败:0
+2019-05-04 22:45:19,891 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 24/235已处理完成，成功:24，失败:0
+2019-05-04 22:45:21,798 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 25/235已处理完成，成功:25，失败:0
+2019-05-04 22:45:28,510 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 26/235已处理完成，成功:26，失败:0
+2019-05-04 22:45:29,854 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 27/235已处理完成，成功:27，失败:0
+2019-05-04 22:45:31,963 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 28/235已处理完成，成功:28，失败:0
+2019-05-04 22:45:32,713 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 29/235已处理完成，成功:29，失败:0
+2019-05-04 22:45:34,733 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 30/235已处理完成，成功:30，失败:0
+2019-05-04 22:45:36,546 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 31/235已处理完成，成功:31，失败:0
+2019-05-04 22:45:38,037 [13592] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第2个线程开始处理
+2019-05-04 22:45:39,959 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 32/235已处理完成，成功:32，失败:0
+2019-05-04 22:45:46,298 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 33/235已处理完成，成功:33，失败:0
+2019-05-04 22:45:47,361 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 34/235已处理完成，成功:34，失败:0
+2019-05-04 22:45:49,250 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 35/235已处理完成，成功:35，失败:0
+2019-05-04 22:45:50,290 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 36/235已处理完成，成功:36，失败:0
+2019-05-04 22:45:51,220 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 37/235已处理完成，成功:37，失败:0
+2019-05-04 22:45:56,003 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 38/235已处理完成，成功:38，失败:0
+2019-05-04 22:46:02,498 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 39/235已处理完成，成功:39，失败:0
+2019-05-04 22:46:02,910 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 40/235已处理完成，成功:40，失败:0
+2019-05-04 22:46:04,502 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 41/235已处理完成，成功:41，失败:0
+2019-05-04 22:46:13,584 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 42/235已处理完成，成功:42，失败:0
+2019-05-04 22:46:15,574 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 43/235已处理完成，成功:43，失败:0
+2019-05-04 22:46:19,208 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 44/235已处理完成，成功:44，失败:0
+2019-05-04 22:46:25,995 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 45/235已处理完成，成功:45，失败:0
+2019-05-04 22:46:30,869 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 46/235已处理完成，成功:46，失败:0
+2019-05-04 22:46:35,754 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 47/235已处理完成，成功:47，失败:0
+2019-05-04 22:46:37,540 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 48/235已处理完成，成功:48，失败:0
+2019-05-04 22:46:38,043 [13592] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第3个线程开始处理
+2019-05-04 22:46:45,963 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 49/235已处理完成，成功:49，失败:0
+2019-05-04 22:46:52,016 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 50/235已处理完成，成功:50，失败:0
+2019-05-04 22:46:53,387 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 51/235已处理完成，成功:51，失败:0
+2019-05-04 22:46:53,676 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 52/235已处理完成，成功:52，失败:0
+2019-05-04 22:46:59,064 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 53/235已处理完成，成功:53，失败:0
+2019-05-04 22:47:08,944 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 54/235已处理完成，成功:54，失败:0
+2019-05-04 22:47:09,303 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 55/235已处理完成，成功:55，失败:0
+2019-05-04 22:47:09,821 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 56/235已处理完成，成功:56，失败:0
+2019-05-04 22:47:10,821 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 57/235已处理完成，成功:57，失败:0
+2019-05-04 22:47:17,024 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 58/235已处理完成，成功:58，失败:0
+2019-05-04 22:47:21,771 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 59/235已处理完成，成功:59，失败:0
+2019-05-04 22:47:24,236 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 60/235已处理完成，成功:60，失败:0
+2019-05-04 22:47:26,860 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 61/235已处理完成，成功:61，失败:0
+2019-05-04 22:47:35,477 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 62/235已处理完成，成功:62，失败:0
+2019-05-04 22:47:39,240 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 63/235已处理完成，成功:63，失败:0
+2019-05-04 22:47:43,273 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 64/235已处理完成，成功:64，失败:0
+2019-05-04 22:47:43,351 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 65/235已处理完成，成功:65，失败:0
+2019-05-04 22:47:44,211 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 66/235已处理完成，成功:66，失败:0
+2019-05-04 22:47:53,689 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 67/235已处理完成，成功:67，失败:0
+2019-05-04 22:47:53,999 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 68/235已处理完成，成功:68，失败:0
+2019-05-04 22:47:58,281 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 69/235已处理完成，成功:69，失败:0
+2019-05-04 22:47:58,675 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 70/235已处理完成，成功:70，失败:0
+2019-05-04 22:48:05,179 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 71/235已处理完成，成功:71，失败:0
+2019-05-04 22:48:07,806 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 72/235已处理完成，成功:72，失败:0
+2019-05-04 22:48:13,918 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 73/235已处理完成，成功:73，失败:0
+2019-05-04 22:48:16,680 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 74/235已处理完成，成功:74，失败:0
+2019-05-04 22:48:17,706 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 75/235已处理完成，成功:75，失败:0
+2019-05-04 22:48:24,091 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 76/235已处理完成，成功:76，失败:0
+2019-05-04 22:48:31,186 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 77/235已处理完成，成功:77，失败:0
+2019-05-04 22:48:32,720 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 78/235已处理完成，成功:78，失败:0
+2019-05-04 22:48:34,607 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 79/235已处理完成，成功:79，失败:0
+2019-05-04 22:48:40,345 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 80/235已处理完成，成功:80，失败:0
+2019-05-04 22:48:42,866 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 81/235已处理完成，成功:81，失败:0
+2019-05-04 22:48:51,721 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 82/235已处理完成，成功:82，失败:0
+2019-05-04 22:48:52,557 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 83/235已处理完成，成功:83，失败:0
+2019-05-04 22:48:59,542 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 84/235已处理完成，成功:84，失败:0
+2019-05-04 22:48:59,687 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 85/235已处理完成，成功:85，失败:0
+2019-05-04 22:49:08,927 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 86/235已处理完成，成功:86，失败:0
+2019-05-04 22:49:10,169 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 87/235已处理完成，成功:87，失败:0
+2019-05-04 22:49:15,980 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 88/235已处理完成，成功:88，失败:0
+2019-05-04 22:49:16,278 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 89/235已处理完成，成功:89，失败:0
+2019-05-04 22:49:26,123 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 90/235已处理完成，成功:90，失败:0
+2019-05-04 22:49:26,326 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 91/235已处理完成，成功:91，失败:0
+2019-05-04 22:49:33,339 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 92/235已处理完成，成功:92，失败:0
+2019-05-04 22:49:33,476 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 93/235已处理完成，成功:93，失败:0
+2019-05-04 22:49:44,005 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 94/235已处理完成，成功:94，失败:0
+2019-05-04 22:49:44,005 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 95/235已处理完成，成功:95，失败:0
+2019-05-04 22:49:50,688 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 96/235已处理完成，成功:96，失败:0
+2019-05-04 22:49:51,044 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 97/235已处理完成，成功:97，失败:0
+2019-05-04 22:50:00,875 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 98/235已处理完成，成功:98，失败:0
+2019-05-04 22:50:01,441 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 99/235已处理完成，成功:99，失败:0
+2019-05-04 22:50:03,888 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=135&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:Data too long for column 'BusinessTitle' at row 1
+2019-05-04 22:50:03,888 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 100/235已处理完成，成功:99，失败:1
+2019-05-04 22:50:08,219 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 101/235已处理完成，成功:100，失败:1
+2019-05-04 22:50:10,305 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 102/235已处理完成，成功:101，失败:1
+2019-05-04 22:50:21,918 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 103/235已处理完成，成功:102，失败:1
+2019-05-04 22:50:24,935 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 104/235已处理完成，成功:103，失败:1
+2019-05-04 22:50:28,693 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 105/235已处理完成，成功:104，失败:1
+2019-05-04 22:50:30,094 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 106/235已处理完成，成功:105，失败:1
+2019-05-04 22:50:39,454 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 107/235已处理完成，成功:106，失败:1
+2019-05-04 22:50:44,512 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 108/235已处理完成，成功:107，失败:1
+2019-05-04 22:50:48,358 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 109/235已处理完成，成功:108，失败:1
+2019-05-04 22:50:48,906 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 110/235已处理完成，成功:109，失败:1
+2019-05-04 22:50:59,189 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 111/235已处理完成，成功:110，失败:1
+2019-05-04 22:51:03,056 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 112/235已处理完成，成功:111，失败:1
+2019-05-04 22:51:06,334 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 113/235已处理完成，成功:112，失败:1
+2019-05-04 22:51:08,771 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 114/235已处理完成，成功:113，失败:1
+2019-05-04 22:51:17,713 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 115/235已处理完成，成功:114，失败:1
+2019-05-04 22:51:22,344 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 116/235已处理完成，成功:115，失败:1
+2019-05-04 22:51:25,065 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 117/235已处理完成，成功:116，失败:1
+2019-05-04 22:51:26,172 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 118/235已处理完成，成功:117，失败:1
+2019-05-04 22:51:35,265 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 119/235已处理完成，成功:118，失败:1
+2019-05-04 22:51:39,612 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 120/235已处理完成，成功:119，失败:1
+2019-05-04 22:51:41,134 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 121/235已处理完成，成功:120，失败:1
+2019-05-04 22:51:42,462 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 122/235已处理完成，成功:121，失败:1
+2019-05-04 22:51:52,707 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 123/235已处理完成，成功:122，失败:1
+2019-05-04 22:51:58,082 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 124/235已处理完成，成功:123，失败:1
+2019-05-04 22:51:59,682 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 125/235已处理完成，成功:124，失败:1
+2019-05-04 22:52:00,404 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 126/235已处理完成，成功:125，失败:1
+2019-05-04 22:52:10,444 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 127/235已处理完成，成功:126，失败:1
+2019-05-04 22:52:15,682 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 128/235已处理完成，成功:127，失败:1
+2019-05-04 22:52:17,454 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 129/235已处理完成，成功:128，失败:1
+2019-05-04 22:52:17,472 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 130/235已处理完成，成功:129，失败:1
+2019-05-04 22:52:26,345 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 131/235已处理完成，成功:130，失败:1
+2019-05-04 22:52:32,205 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 132/235已处理完成，成功:131，失败:1
+2019-05-04 22:52:34,352 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 133/235已处理完成，成功:132，失败:1
+2019-05-04 22:52:35,949 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 134/235已处理完成，成功:133，失败:1
+2019-05-04 22:52:44,195 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 135/235已处理完成，成功:134，失败:1
+2019-05-04 22:52:50,592 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 136/235已处理完成，成功:135，失败:1
+2019-05-04 22:52:53,668 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 137/235已处理完成，成功:136，失败:1
+2019-05-04 22:52:53,852 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 138/235已处理完成，成功:137，失败:1
+2019-05-04 22:53:00,721 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 139/235已处理完成，成功:138，失败:1
+2019-05-04 22:53:07,958 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 140/235已处理完成，成功:139，失败:1
+2019-05-04 22:53:12,728 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 141/235已处理完成，成功:140，失败:1
+2019-05-04 22:53:13,152 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 142/235已处理完成，成功:141，失败:1
+2019-05-04 22:53:18,957 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 143/235已处理完成，成功:142，失败:1
+2019-05-04 22:53:27,345 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 144/235已处理完成，成功:143，失败:1
+2019-05-04 22:53:34,371 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 145/235已处理完成，成功:144，失败:1
+2019-05-04 22:53:34,837 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 146/235已处理完成，成功:145，失败:1
+2019-05-04 22:53:38,525 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 147/235已处理完成，成功:146，失败:1
+2019-05-04 22:53:46,381 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 148/235已处理完成，成功:147，失败:1
+2019-05-04 22:53:51,148 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 149/235已处理完成，成功:148，失败:1
+2019-05-04 22:53:52,419 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 150/235已处理完成，成功:149，失败:1
+2019-05-04 22:53:55,443 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 151/235已处理完成，成功:150，失败:1
+2019-05-04 22:54:08,108 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 152/235已处理完成，成功:151，失败:1
+2019-05-04 22:54:09,033 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 153/235已处理完成，成功:152，失败:1
+2019-05-04 22:54:12,317 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 154/235已处理完成，成功:153，失败:1
+2019-05-04 22:54:15,462 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 155/235已处理完成，成功:154，失败:1
+2019-05-04 22:54:23,765 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 156/235已处理完成，成功:155，失败:1
+2019-05-04 22:54:27,105 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 157/235已处理完成，成功:156，失败:1
+2019-05-04 22:54:29,157 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 158/235已处理完成，成功:157，失败:1
+2019-05-04 22:54:33,390 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 159/235已处理完成，成功:158，失败:1
+2019-05-04 22:54:41,562 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 160/235已处理完成，成功:159，失败:1
+2019-05-04 22:54:44,458 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 161/235已处理完成，成功:160，失败:1
+2019-05-04 22:54:47,288 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 162/235已处理完成，成功:161，失败:1
+2019-05-04 22:54:51,608 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 163/235已处理完成，成功:162，失败:1
+2019-05-04 22:54:57,693 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 164/235已处理完成，成功:163，失败:1
+2019-05-04 22:55:01,100 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 165/235已处理完成，成功:164，失败:1
+2019-05-04 22:55:06,530 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 166/235已处理完成，成功:165，失败:1
+2019-05-04 22:55:10,387 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 167/235已处理完成，成功:166，失败:1
+2019-05-04 22:55:17,209 [16976] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 168/235已处理完成，成功:167，失败:1
+2019-05-04 22:55:19,397 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 169/235已处理完成，成功:168，失败:1
+2019-05-04 22:55:28,139 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 170/235已处理完成，成功:169，失败:1
+2019-05-04 22:55:29,030 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 171/235已处理完成，成功:170，失败:1
+2019-05-04 22:55:31,061 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 172/235已处理完成，成功:171，失败:1
+2019-05-04 22:55:41,836 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 173/235已处理完成，成功:172，失败:1
+2019-05-04 22:55:44,711 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 174/235已处理完成，成功:173，失败:1
+2019-05-04 22:55:45,399 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 175/235已处理完成，成功:174，失败:1
+2019-05-04 22:55:54,938 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 176/235已处理完成，成功:175，失败:1
+2019-05-04 22:55:56,031 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 177/235已处理完成，成功:176，失败:1
+2019-05-04 22:55:57,198 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 178/235已处理完成，成功:177，失败:1
+2019-05-04 22:56:07,858 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 179/235已处理完成，成功:178，失败:1
+2019-05-04 22:56:11,727 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 180/235已处理完成，成功:179，失败:1
+2019-05-04 22:56:13,508 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 181/235已处理完成，成功:180，失败:1
+2019-05-04 22:56:22,595 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 182/235已处理完成，成功:181，失败:1
+2019-05-04 22:56:25,361 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 183/235已处理完成，成功:182，失败:1
+2019-05-04 22:56:29,247 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 184/235已处理完成，成功:183，失败:1
+2019-05-04 22:56:34,951 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 185/235已处理完成，成功:184，失败:1
+2019-05-04 22:56:38,052 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 186/235已处理完成，成功:185，失败:1
+2019-05-04 22:56:49,470 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 187/235已处理完成，成功:186，失败:1
+2019-05-04 22:56:52,549 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 188/235已处理完成，成功:187，失败:1
+2019-05-04 22:56:55,862 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 189/235已处理完成，成功:188，失败:1
+2019-05-04 22:57:04,309 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 190/235已处理完成，成功:189，失败:1
+2019-05-04 22:57:04,856 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 191/235已处理完成，成功:190，失败:1
+2019-05-04 22:57:10,196 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 192/235已处理完成，成功:191，失败:1
+2019-05-04 22:57:17,267 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 193/235已处理完成，成功:192，失败:1
+2019-05-04 22:57:19,752 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 194/235已处理完成，成功:193，失败:1
+2019-05-04 22:57:28,513 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 195/235已处理完成，成功:194，失败:1
+2019-05-04 22:57:31,436 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 196/235已处理完成，成功:195，失败:1
+2019-05-04 22:57:38,617 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 197/235已处理完成，成功:196，失败:1
+2019-05-04 22:57:42,836 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 198/235已处理完成，成功:197，失败:1
+2019-05-04 22:57:45,962 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 199/235已处理完成，成功:198，失败:1
+2019-05-04 22:57:55,190 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 200/235已处理完成，成功:199，失败:1
+2019-05-04 22:57:57,806 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 201/235已处理完成，成功:200，失败:1
+2019-05-04 22:58:01,662 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 202/235已处理完成，成功:201，失败:1
+2019-05-04 22:58:09,991 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 203/235已处理完成，成功:202，失败:1
+2019-05-04 22:58:11,507 [948] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 204/235已处理完成，成功:203，失败:1
+2019-05-04 22:58:17,831 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 205/235已处理完成，成功:204，失败:1
+2019-05-04 22:58:23,004 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 206/235已处理完成，成功:205，失败:1
+2019-05-04 22:58:30,840 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 207/235已处理完成，成功:206，失败:1
+2019-05-04 22:58:34,984 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 208/235已处理完成，成功:207，失败:1
+2019-05-04 22:58:42,976 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 209/235已处理完成，成功:208，失败:1
+2019-05-04 22:58:45,632 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 210/235已处理完成，成功:209，失败:1
+2019-05-04 22:58:53,431 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 211/235已处理完成，成功:210，失败:1
+2019-05-04 22:58:53,994 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 212/235已处理完成，成功:211，失败:1
+2019-05-04 22:59:03,438 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 213/235已处理完成，成功:212，失败:1
+2019-05-04 22:59:03,719 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 214/235已处理完成，成功:213，失败:1
+2019-05-04 22:59:13,285 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 215/235已处理完成，成功:214，失败:1
+2019-05-04 22:59:13,488 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 216/235已处理完成，成功:215，失败:1
+2019-05-04 22:59:22,853 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 217/235已处理完成，成功:216，失败:1
+2019-05-04 22:59:23,493 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 218/235已处理完成，成功:217，失败:1
+2019-05-04 23:00:07,084 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 219/235已处理完成，成功:218，失败:1
+2019-05-04 23:00:07,772 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 220/235已处理完成，成功:219，失败:1
+2019-05-04 23:00:17,390 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 221/235已处理完成，成功:220，失败:1
+2019-05-04 23:00:18,562 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 222/235已处理完成，成功:221，失败:1
+2019-05-04 23:00:31,496 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 223/235已处理完成，成功:222，失败:1
+2019-05-04 23:00:32,152 [10312] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 224/235已处理完成，成功:223，失败:1
+2019-05-04 23:00:44,745 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 225/235已处理完成，成功:224，失败:1
+2019-05-04 23:00:53,938 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 226/235已处理完成，成功:225，失败:1
+2019-05-04 23:01:05,000 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 227/235已处理完成，成功:226，失败:1
+2019-05-04 23:01:16,492 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 228/235已处理完成，成功:227，失败:1
+2019-05-04 23:01:27,907 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 229/235已处理完成，成功:228，失败:1
+2019-05-04 23:01:39,590 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 230/235已处理完成，成功:229，失败:1
+2019-05-04 23:01:51,037 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 231/235已处理完成，成功:230，失败:1
+2019-05-04 23:02:01,825 [17276] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 232/235已处理完成，成功:231，失败:1
+2019-05-04 23:08:22,282 [17904] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到235个待抓取页面，处理线程数:4
+2019-05-04 23:08:22,290 [17904] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理
+2019-05-04 23:08:23,887 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 1/235已处理完成，成功:1，失败:0
+2019-05-04 23:08:26,234 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 2/235已处理完成，成功:2，失败:0
+2019-05-04 23:08:28,199 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 3/235已处理完成，成功:3，失败:0
+2019-05-04 23:08:30,111 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 4/235已处理完成，成功:4，失败:0
+2019-05-04 23:08:32,053 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 5/235已处理完成，成功:5，失败:0
+2019-05-04 23:08:33,376 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=6&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:Data too long for column 'Money' at row 1
+2019-05-04 23:08:33,376 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 6/235已处理完成，成功:5，失败:1
+2019-05-04 23:08:35,514 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 7/235已处理完成，成功:6，失败:1
+2019-05-04 23:08:37,210 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 8/235已处理完成，成功:7，失败:1
+2019-05-04 23:08:38,866 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 9/235已处理完成，成功:8，失败:1
+2019-05-04 23:08:41,149 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 10/235已处理完成，成功:9，失败:1
+2019-05-04 23:08:43,417 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 11/235已处理完成，成功:10，失败:1
+2019-05-04 23:08:45,373 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 12/235已处理完成，成功:11，失败:1
+2019-05-04 23:08:47,617 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 13/235已处理完成，成功:12，失败:1
+2019-05-04 23:08:49,386 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 14/235已处理完成，成功:13，失败:1
+2019-05-04 23:08:51,236 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 15/235已处理完成，成功:14，失败:1
+2019-05-04 23:08:53,001 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 16/235已处理完成，成功:15，失败:1
+2019-05-04 23:08:54,851 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 17/235已处理完成，成功:16，失败:1
+2019-05-04 23:08:56,808 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 18/235已处理完成，成功:17，失败:1
+2019-05-04 23:08:58,675 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 19/235已处理完成，成功:18，失败:1
+2019-05-04 23:09:00,573 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 20/235已处理完成，成功:19，失败:1
+2019-05-04 23:09:02,109 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 21/235已处理完成，成功:20，失败:1
+2019-05-04 23:09:03,991 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 22/235已处理完成，成功:21，失败:1
+2019-05-04 23:09:05,789 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 23/235已处理完成，成功:22，失败:1
+2019-05-04 23:09:08,620 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 24/235已处理完成，成功:23，失败:1
+2019-05-04 23:09:11,335 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 25/235已处理完成，成功:24，失败:1
+2019-05-04 23:09:15,015 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 26/235已处理完成，成功:25，失败:1
+2019-05-04 23:09:17,888 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 27/235已处理完成，成功:26，失败:1
+2019-05-04 23:09:20,099 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 28/235已处理完成，成功:27，失败:1
+2019-05-04 23:09:22,295 [17904] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第1个线程开始处理
+2019-05-04 23:09:25,042 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 29/235已处理完成，成功:28，失败:1
+2019-05-04 23:09:26,544 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 30/235已处理完成，成功:29，失败:1
+2019-05-04 23:09:28,200 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 31/235已处理完成，成功:30，失败:1
+2019-05-04 23:09:29,518 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 32/235已处理完成，成功:31，失败:1
+2019-05-04 23:09:30,433 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 33/235已处理完成，成功:32，失败:1
+2019-05-04 23:09:32,449 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 34/235已处理完成，成功:33，失败:1
+2019-05-04 23:09:34,424 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 35/235已处理完成，成功:34，失败:1
+2019-05-04 23:09:35,470 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 36/235已处理完成，成功:35，失败:1
+2019-05-04 23:09:37,830 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 37/235已处理完成，成功:36，失败:1
+2019-05-04 23:09:38,096 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 38/235已处理完成，成功:37，失败:1
+2019-05-04 23:09:41,112 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 39/235已处理完成，成功:38，失败:1
+2019-05-04 23:09:41,252 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 40/235已处理完成，成功:39，失败:1
+2019-05-04 23:09:43,480 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 41/235已处理完成，成功:40，失败:1
+2019-05-04 23:09:44,214 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 42/235已处理完成，成功:41，失败:1
+2019-05-04 23:09:47,236 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 43/235已处理完成，成功:42，失败:1
+2019-05-04 23:09:47,330 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 44/235已处理完成，成功:43，失败:1
+2019-05-04 23:09:50,843 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 45/235已处理完成，成功:44，失败:1
+2019-05-04 23:09:51,561 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 46/235已处理完成，成功:45，失败:1
+2019-05-04 23:09:54,614 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 47/235已处理完成，成功:46，失败:1
+2019-05-04 23:09:55,302 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 48/235已处理完成，成功:47，失败:1
+2019-05-04 23:09:57,697 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 49/235已处理完成，成功:48，失败:1
+2019-05-04 23:09:58,432 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 50/235已处理完成，成功:49，失败:1
+2019-05-04 23:10:00,503 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 51/235已处理完成，成功:50，失败:1
+2019-05-04 23:10:01,351 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 52/235已处理完成，成功:51，失败:1
+2019-05-04 23:10:05,948 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 53/235已处理完成，成功:52，失败:1
+2019-05-04 23:10:06,276 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 54/235已处理完成，成功:53，失败:1
+2019-05-04 23:10:09,649 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 55/235已处理完成，成功:54，失败:1
+2019-05-04 23:10:10,247 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 56/235已处理完成，成功:55，失败:1
+2019-05-04 23:10:15,497 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 57/235已处理完成，成功:56，失败:1
+2019-05-04 23:10:15,966 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 58/235已处理完成，成功:57，失败:1
+2019-05-04 23:10:18,936 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 59/235已处理完成，成功:58，失败:1
+2019-05-04 23:10:19,545 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 60/235已处理完成，成功:59，失败:1
+2019-05-04 23:10:22,223 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 61/235已处理完成，成功:60，失败:1
+2019-05-04 23:10:22,301 [17904] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第2个线程开始处理
+2019-05-04 23:10:22,723 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 62/235已处理完成，成功:61，失败:1
+2019-05-04 23:10:27,632 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 63/235已处理完成，成功:62，失败:1
+2019-05-04 23:10:27,883 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 64/235已处理完成，成功:63，失败:1
+2019-05-04 23:10:28,304 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 65/235已处理完成，成功:64，失败:1
+2019-05-04 23:10:36,170 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 66/235已处理完成，成功:65，失败:1
+2019-05-04 23:10:39,288 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 67/235已处理完成，成功:66，失败:1
+2019-05-04 23:10:40,179 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 68/235已处理完成，成功:67，失败:1
+2019-05-04 23:10:44,049 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 69/235已处理完成，成功:68，失败:1
+2019-05-04 23:10:47,445 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 70/235已处理完成，成功:69，失败:1
+2019-05-04 23:10:47,866 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 71/235已处理完成，成功:70，失败:1
+2019-05-04 23:10:48,674 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 72/235已处理完成，成功:71，失败:1
+2019-05-04 23:10:51,630 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 73/235已处理完成，成功:72，失败:1
+2019-05-04 23:10:53,641 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 74/235已处理完成，成功:73，失败:1
+2019-05-04 23:10:53,925 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 75/235已处理完成，成功:74，失败:1
+2019-05-04 23:10:59,150 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 76/235已处理完成，成功:75，失败:1
+2019-05-04 23:11:02,229 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 77/235已处理完成，成功:76，失败:1
+2019-05-04 23:11:06,649 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 78/235已处理完成，成功:77，失败:1
+2019-05-04 23:11:06,724 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 79/235已处理完成，成功:78，失败:1
+2019-05-04 23:11:08,488 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 80/235已处理完成，成功:79，失败:1
+2019-05-04 23:11:10,717 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 81/235已处理完成，成功:80，失败:1
+2019-05-04 23:11:11,115 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 82/235已处理完成，成功:81，失败:1
+2019-05-04 23:11:12,148 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 83/235已处理完成，成功:82，失败:1
+2019-05-04 23:11:14,993 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 84/235已处理完成，成功:83，失败:1
+2019-05-04 23:11:15,329 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 85/235已处理完成，成功:84，失败:1
+2019-05-04 23:11:17,098 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 86/235已处理完成，成功:85，失败:1
+2019-05-04 23:11:22,308 [17904] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第3个线程开始处理
+2019-05-04 23:11:22,431 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 87/235已处理完成，成功:86，失败:1
+2019-05-04 23:11:22,462 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 88/235已处理完成，成功:87，失败:1
+2019-05-04 23:11:23,219 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 89/235已处理完成，成功:88，失败:1
+2019-05-04 23:11:27,139 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 90/235已处理完成，成功:89，失败:1
+2019-05-04 23:11:27,201 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 91/235已处理完成，成功:90，失败:1
+2019-05-04 23:11:27,420 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 92/235已处理完成，成功:91，失败:1
+2019-05-04 23:11:27,578 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 93/235已处理完成，成功:92，失败:1
+2019-05-04 23:11:29,976 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 94/235已处理完成，成功:93，失败:1
+2019-05-04 23:11:30,080 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 95/235已处理完成，成功:94，失败:1
+2019-05-04 23:11:30,168 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 96/235已处理完成，成功:95，失败:1
+2019-05-04 23:11:30,540 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 97/235已处理完成，成功:96，失败:1
+2019-05-04 23:11:33,331 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 98/235已处理完成，成功:97，失败:1
+2019-05-04 23:11:33,531 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 99/235已处理完成，成功:98，失败:1
+2019-05-04 23:11:33,535 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 100/235已处理完成，成功:99，失败:1
+2019-05-04 23:11:34,505 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 101/235已处理完成，成功:100，失败:1
+2019-05-04 23:11:36,542 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 102/235已处理完成，成功:101，失败:1
+2019-05-04 23:11:36,945 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 103/235已处理完成，成功:102，失败:1
+2019-05-04 23:11:37,137 [11360] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 104/235已处理完成，成功:103，失败:1
+2019-05-04 23:11:37,985 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 105/235已处理完成，成功:104，失败:1
+2019-05-04 23:11:38,608 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 106/235已处理完成，成功:105，失败:1
+2019-05-04 23:11:39,379 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 107/235已处理完成，成功:106，失败:1
+2019-05-04 23:11:40,181 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 108/235已处理完成，成功:107，失败:1
+2019-05-04 23:11:40,604 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 109/235已处理完成，成功:108，失败:1
+2019-05-04 23:11:41,790 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 110/235已处理完成，成功:109，失败:1
+2019-05-04 23:11:42,230 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 111/235已处理完成，成功:110，失败:1
+2019-05-04 23:11:42,628 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 112/235已处理完成，成功:111，失败:1
+2019-05-04 23:11:43,733 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 113/235已处理完成，成功:112，失败:1
+2019-05-04 23:11:44,358 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 114/235已处理完成，成功:113，失败:1
+2019-05-04 23:11:44,678 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 115/235已处理完成，成功:114，失败:1
+2019-05-04 23:11:45,839 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 116/235已处理完成，成功:115，失败:1
+2019-05-04 23:11:46,427 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 117/235已处理完成，成功:116，失败:1
+2019-05-04 23:11:46,827 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 118/235已处理完成，成功:117，失败:1
+2019-05-04 23:11:48,084 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 119/235已处理完成，成功:118，失败:1
+2019-05-04 23:11:48,708 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 120/235已处理完成，成功:119，失败:1
+2019-05-04 23:11:48,924 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 121/235已处理完成，成功:120，失败:1
+2019-05-04 23:11:49,403 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 处理失败http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=135&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time=2019:05:04&end_time=2019:04:27&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=:Data too long for column 'BusinessTitle' at row 1
+2019-05-04 23:11:49,403 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 122/235已处理完成，成功:120，失败:2
+2019-05-04 23:11:51,253 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 123/235已处理完成，成功:121，失败:2
+2019-05-04 23:11:51,889 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 124/235已处理完成，成功:122，失败:2
+2019-05-04 23:11:52,169 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 125/235已处理完成，成功:123，失败:2
+2019-05-04 23:11:53,195 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 126/235已处理完成，成功:124，失败:2
+2019-05-04 23:11:54,579 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 127/235已处理完成，成功:125，失败:2
+2019-05-04 23:11:54,638 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 128/235已处理完成，成功:126，失败:2
+2019-05-04 23:11:55,321 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 129/235已处理完成，成功:127，失败:2
+2019-05-04 23:11:56,680 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 130/235已处理完成，成功:128，失败:2
+2019-05-04 23:11:57,202 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 131/235已处理完成，成功:129，失败:2
+2019-05-04 23:11:57,617 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 132/235已处理完成，成功:130，失败:2
+2019-05-04 23:11:58,708 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 133/235已处理完成，成功:131，失败:2
+2019-05-04 23:11:58,955 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 134/235已处理完成，成功:132，失败:2
+2019-05-04 23:11:59,781 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 135/235已处理完成，成功:133，失败:2
+2019-05-04 23:12:01,065 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 136/235已处理完成，成功:134，失败:2
+2019-05-04 23:12:01,257 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 137/235已处理完成，成功:135，失败:2
+2019-05-04 23:12:04,054 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 138/235已处理完成，成功:136，失败:2
+2019-05-04 23:12:04,283 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 139/235已处理完成，成功:137，失败:2
+2019-05-04 23:12:05,258 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 140/235已处理完成，成功:138，失败:2
+2019-05-04 23:12:06,290 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 141/235已处理完成，成功:139，失败:2
+2019-05-04 23:12:06,590 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 142/235已处理完成，成功:140，失败:2
+2019-05-04 23:12:07,733 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 143/235已处理完成，成功:141，失败:2
+2019-05-04 23:12:08,452 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 144/235已处理完成，成功:142，失败:2
+2019-05-04 23:12:08,909 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 145/235已处理完成，成功:143，失败:2
+2019-05-04 23:12:09,890 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 146/235已处理完成，成功:144，失败:2
+2019-05-04 23:12:10,572 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 147/235已处理完成，成功:145，失败:2
+2019-05-04 23:12:11,231 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 148/235已处理完成，成功:146，失败:2
+2019-05-04 23:12:11,832 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 149/235已处理完成，成功:147，失败:2
+2019-05-04 23:12:12,844 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 150/235已处理完成，成功:148，失败:2
+2019-05-04 23:12:13,533 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 151/235已处理完成，成功:149，失败:2
+2019-05-04 23:12:13,767 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 152/235已处理完成，成功:150，失败:2
+2019-05-04 23:12:15,182 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 153/235已处理完成，成功:151，失败:2
+2019-05-04 23:12:15,728 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 154/235已处理完成，成功:152，失败:2
+2019-05-04 23:12:15,862 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 155/235已处理完成，成功:153，失败:2
+2019-05-04 23:12:17,353 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 156/235已处理完成，成功:154，失败:2
+2019-05-04 23:12:17,950 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 157/235已处理完成，成功:155，失败:2
+2019-05-04 23:12:18,089 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 158/235已处理完成，成功:156，失败:2
+2019-05-04 23:12:19,522 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 159/235已处理完成，成功:157，失败:2
+2019-05-04 23:12:20,224 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 160/235已处理完成，成功:158，失败:2
+2019-05-04 23:12:20,271 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 161/235已处理完成，成功:159，失败:2
+2019-05-04 23:12:21,378 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 162/235已处理完成，成功:160，失败:2
+2019-05-04 23:12:22,103 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 163/235已处理完成，成功:161，失败:2
+2019-05-04 23:12:22,486 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 164/235已处理完成，成功:162，失败:2
+2019-05-04 23:12:23,479 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 165/235已处理完成，成功:163，失败:2
+2019-05-04 23:12:24,028 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 166/235已处理完成，成功:164，失败:2
+2019-05-04 23:12:24,675 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 167/235已处理完成，成功:165，失败:2
+2019-05-04 23:12:26,146 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 168/235已处理完成，成功:166，失败:2
+2019-05-04 23:12:26,253 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 169/235已处理完成，成功:167，失败:2
+2019-05-04 23:12:26,676 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 170/235已处理完成，成功:168，失败:2
+2019-05-04 23:12:28,232 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 171/235已处理完成，成功:169，失败:2
+2019-05-04 23:12:28,232 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 172/235已处理完成，成功:170，失败:2
+2019-05-04 23:12:28,717 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 173/235已处理完成，成功:171，失败:2
+2019-05-04 23:12:29,860 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 174/235已处理完成，成功:172，失败:2
+2019-05-04 23:12:30,285 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 175/235已处理完成，成功:173，失败:2
+2019-05-04 23:12:30,652 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 176/235已处理完成，成功:174，失败:2
+2019-05-04 23:12:31,747 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 177/235已处理完成，成功:175，失败:2
+2019-05-04 23:12:32,273 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 178/235已处理完成，成功:176，失败:2
+2019-05-04 23:12:32,735 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 179/235已处理完成，成功:177，失败:2
+2019-05-04 23:12:34,155 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 180/235已处理完成，成功:178，失败:2
+2019-05-04 23:12:34,562 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 181/235已处理完成，成功:179，失败:2
+2019-05-04 23:12:34,719 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 182/235已处理完成，成功:180，失败:2
+2019-05-04 23:12:42,660 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 183/235已处理完成，成功:181，失败:2
+2019-05-04 23:12:43,173 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 184/235已处理完成，成功:182，失败:2
+2019-05-04 23:12:43,238 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 185/235已处理完成，成功:183，失败:2
+2019-05-04 23:12:44,602 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 186/235已处理完成，成功:184，失败:2
+2019-05-04 23:12:45,719 [5532] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 187/235已处理完成，成功:185，失败:2
+2019-05-04 23:12:45,772 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 188/235已处理完成，成功:186，失败:2
+2019-05-04 23:12:46,887 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 189/235已处理完成，成功:187，失败:2
+2019-05-04 23:12:47,615 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 190/235已处理完成，成功:188，失败:2
+2019-05-04 23:12:48,808 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 191/235已处理完成，成功:189，失败:2
+2019-05-04 23:12:49,399 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 192/235已处理完成，成功:190，失败:2
+2019-05-04 23:12:50,685 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 193/235已处理完成，成功:191，失败:2
+2019-05-04 23:12:51,450 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 194/235已处理完成，成功:192，失败:2
+2019-05-04 23:12:52,688 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 195/235已处理完成，成功:193，失败:2
+2019-05-04 23:12:53,394 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 196/235已处理完成，成功:194，失败:2
+2019-05-04 23:12:54,662 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 197/235已处理完成，成功:195，失败:2
+2019-05-04 23:12:55,286 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 198/235已处理完成，成功:196，失败:2
+2019-05-04 23:12:56,504 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 199/235已处理完成，成功:197，失败:2
+2019-05-04 23:12:57,031 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 200/235已处理完成，成功:198，失败:2
+2019-05-04 23:12:58,329 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 201/235已处理完成，成功:199，失败:2
+2019-05-04 23:12:58,765 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 202/235已处理完成，成功:200，失败:2
+2019-05-04 23:12:59,983 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 203/235已处理完成，成功:201，失败:2
+2019-05-04 23:13:00,745 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 204/235已处理完成，成功:202，失败:2
+2019-05-04 23:13:02,022 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 205/235已处理完成，成功:203，失败:2
+2019-05-04 23:13:02,694 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 206/235已处理完成，成功:204，失败:2
+2019-05-04 23:13:03,915 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 207/235已处理完成，成功:205，失败:2
+2019-05-04 23:13:04,601 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 208/235已处理完成，成功:206，失败:2
+2019-05-04 23:13:05,949 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 209/235已处理完成，成功:207，失败:2
+2019-05-04 23:13:06,422 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 210/235已处理完成，成功:208，失败:2
+2019-05-04 23:13:07,794 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 211/235已处理完成，成功:209，失败:2
+2019-05-04 23:13:08,315 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 212/235已处理完成，成功:210，失败:2
+2019-05-04 23:13:10,696 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 213/235已处理完成，成功:211，失败:2
+2019-05-04 23:13:11,174 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 214/235已处理完成，成功:212，失败:2
+2019-05-04 23:13:13,409 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 215/235已处理完成，成功:213，失败:2
+2019-05-04 23:13:13,807 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 216/235已处理完成，成功:214，失败:2
+2019-05-04 23:13:15,783 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 217/235已处理完成，成功:215，失败:2
+2019-05-04 23:13:16,646 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 218/235已处理完成，成功:216，失败:2
+2019-05-04 23:13:17,983 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 219/235已处理完成，成功:217，失败:2
+2019-05-04 23:13:19,469 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 220/235已处理完成，成功:218，失败:2
+2019-05-04 23:13:20,253 [11116] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 221/235已处理完成，成功:219，失败:2
+2019-05-04 23:13:21,407 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 222/235已处理完成，成功:220，失败:2
+2019-05-04 23:13:23,653 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 223/235已处理完成，成功:221，失败:2
+2019-05-04 23:13:25,947 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 224/235已处理完成，成功:222，失败:2
+2019-05-04 23:13:27,618 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 225/235已处理完成，成功:223，失败:2
+2019-05-04 23:13:29,955 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 226/235已处理完成，成功:224，失败:2
+2019-05-04 23:13:32,220 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 227/235已处理完成，成功:225，失败:2
+2019-05-04 23:13:34,541 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 228/235已处理完成，成功:226，失败:2
+2019-05-04 23:13:36,448 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 229/235已处理完成，成功:227，失败:2
+2019-05-04 23:13:38,544 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 230/235已处理完成，成功:228，失败:2
+2019-05-04 23:13:41,548 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 231/235已处理完成，成功:229，失败:2
+2019-05-04 23:13:43,660 [16644] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 232/235已处理完成，成功:230，失败:2

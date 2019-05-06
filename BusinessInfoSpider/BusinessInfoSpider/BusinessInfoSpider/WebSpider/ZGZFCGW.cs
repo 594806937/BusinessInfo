@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading;
 using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
@@ -10,7 +9,6 @@ using AngleSharp.Extensions;
 using AngleSharp.Parser.Html;
 using BusinessInfoSpider.Model;
 using BusinessInfoSpider.Utility;
-using DevExpress.Utils.Paint;
 
 namespace BusinessInfoSpider.WebSpider
 {
@@ -28,9 +26,9 @@ namespace BusinessInfoSpider.WebSpider
 
         private int total = 100;
         private int process = 4;//线程数
-        private int currentStep = 0;//当前处理到第多少个
-        private int successcount = 0;//成功结果
-        private int failcount = 0;//失败结果
+        private int currentStep;//当前处理到第多少个
+        private int successcount;//成功结果
+        private int failcount;//失败结果
         /// <summary>
         /// 开始处理
         /// </summary>
@@ -63,10 +61,10 @@ namespace BusinessInfoSpider.WebSpider
             AppLog.Info(string.Format("{0}:检测到{1}个待抓取页面，处理线程数:{2}", Name, total, processcount));
             for (int m = 0; m < processcount; m++)
             {
-                Thread tr = new Thread(new ParameterizedThreadStart(ProcessByThread));
+                Thread tr = new Thread(ProcessByThread);
                 tr.Start(m);
                 AppLog.Info(string.Format("{0}:已启动第{1}个线程开始处理", Name, m));
-                Thread.Sleep(60000);
+                Thread.Sleep(10000);
             }
         }
 
@@ -77,10 +75,7 @@ namespace BusinessInfoSpider.WebSpider
             string dateBefore7Days = DateTime.Now.AddDays(-7).ToString("yyyy:MM:dd");
             for (int i = newindex * (total / process) + 1; i <= (newindex + 1) * (total / process); i++)
             {
-                string url =
-                    string.Format(
-                        @"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index={0}&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={1}&end_time={2}&timeType=3&displayZone=&zoneId=&pppStatus=0&agentName=",
-                        i, dateNow, dateBefore7Days);
+                string url = string.Format(@"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index={0}&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={1}&end_time={2}&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=", i, dateNow, dateBefore7Days);
                 HandleBusinessInfo(url);
             }
         }
@@ -99,13 +94,13 @@ namespace BusinessInfoSpider.WebSpider
                 string html = GetHTML(url_string);
                 HtmlParser parser = new HtmlParser();
                 IHtmlDocument document = parser.Parse(html);
-                List<AngleSharp.Dom.IElement> divList =
+                List<IElement> divList =
                     document.QuerySelectorAll("ul")
                         .Where(table => table.GetAttribute("class") == "vT-srch-result-list-bid")
                         .ToList();
                 if (divList.Count == 0)
                 {
-                    throw new Exception(string.Format("处理失败,未获取到Div信息{0}:{1}", Name, url));
+                    throw new Exception(string.Format("处理失败,未获取到Div信息{0}", Name));
                 }
                 IElement tableElement = divList[0];
                 var liList = tableElement.GetElementsByTagName("li");
@@ -121,15 +116,15 @@ namespace BusinessInfoSpider.WebSpider
                     }
                     var spanList = liList[i].QuerySelectorAll("span");
                     string time = spanList[0].Text().Split('|')[0];
-                    info.ComName = spanList[0].Text().Split('|')[1].Replace('\n', ' ').Trim(' ');
+                    string midComName = spanList[0].Text().Split('|')[1].Replace('\n', ' ').Trim(' ');
+                    info.ComName = midComName.Substring(midComName.IndexOf("：") + 1, midComName.Length - midComName.IndexOf("：") - 1);
                     info.ReleaseTime = DateTime.Parse(time);
                     BuildDetileinfo(info);
-                    info.Source = this.Name;
+                    info.Source = Name;
 
                     bool insertSQL = InsertInfo(info);
                 }
                 successcount++;
-                AppLog.Info(string.Format("处理完成{0}:{1}", Name, url));
             }
             catch (Exception ex)
             {
@@ -167,11 +162,25 @@ namespace BusinessInfoSpider.WebSpider
                 string moneycontent = trDocument.ChildNodes[0].TextContent;
                 if (moneycontent.Contains("金额"))
                 {
-                    string midresult = moneycontent.Substring(moneycontent.IndexOf('￥') + 1,
-                        moneycontent.Length - moneycontent.IndexOf('￥') - 1);
-                    string finalresult = midresult.Substring(0, midresult.IndexOf("万"));
-                    info.Money = finalresult;
-                    break;
+                    if (moneycontent.Contains("万"))
+                    {
+                        string midresult = moneycontent.Substring(moneycontent.IndexOf('￥') + 1,
+    moneycontent.Length - moneycontent.IndexOf('￥') - 1);
+                        string finalresult = midresult.Substring(0, midresult.IndexOf("万"));
+                        info.Money = finalresult;
+                        break;
+                    }
+                    else if (moneycontent.Contains("详见"))
+                    {
+                        info.Money =
+                            moneycontent.Substring(moneycontent.IndexOf("额") + 1,
+                                moneycontent.Length - moneycontent.IndexOf("额") - 1);
+                    }
+                    else
+                    {
+                        info.Money = "未获取到金额数据，请自行查看";
+                    }
+
                 }
             }
             List<IElement> list =
@@ -180,7 +189,7 @@ namespace BusinessInfoSpider.WebSpider
             if (list.Count <= 0)
                 return;
             IHtmlDocument midDocument = parser.Parse(list[0].InnerHtml);
-            List<AngleSharp.Dom.IElement> pList = midDocument.QuerySelectorAll("p").ToList();
+            List<IElement> pList = midDocument.QuerySelectorAll("p").ToList();
             for (int i = 0; i < pList.Count; i++)
             {
                 sb.Append(pList[i].Text());

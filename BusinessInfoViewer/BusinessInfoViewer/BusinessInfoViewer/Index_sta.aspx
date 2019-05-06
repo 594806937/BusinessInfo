@@ -31,16 +31,17 @@
                 "display": "row-border",
                 "pageLength": "20",
                 "columns": [
-                    { "data": "title", "width": "55%" },
+                    { "data": "title", "width": "40%" },
                     { "data": "degree", "width": "5%" },
-                    { "data": "com", "width": "15%" },
+                    { "data": "com", "width": "20%" },
                     { "data": "date", "width": "5%" },
+                    { "data": "money", "width": "10%" },
                     { "data": "source", "width": "10%" },
                     { "data": "url", "width": "10%" }
                 ],
                 "order": [1, 'desc'],
                 "columnDefs": [{
-                    "targets": 5,
+                    "targets": 6,
                     "data": "url",
                     "render": function (data, type, row, meta) {
                         return '<a href="' + data + '">查看招标详情</a>';
@@ -112,6 +113,9 @@
                                                     发布时间
                                                 </th>
                                                 <th>
+                                                    项目金额（万元）
+                                                </th>
+                                                <th>
                                                     信息来源
                                                 </th>
                                                 <th>
@@ -132,6 +136,9 @@
                                                 </th>
                                                 <th>
                                                     发布时间
+                                                </th>
+                                                <th>
+                                                    项目金额（万元）
                                                 </th>
                                                 <th>
                                                     信息来源

@@ -50,6 +50,7 @@ namespace BusinessInfoViewer.MySQLDAL
                 info.ReleaseTime = DateTime.Parse(dt.Rows[i]["ReleaseTime"].ToString());
                 info.DetileURL = dt.Rows[i]["DetileURL"].ToString();
                 info.Source = dt.Rows[i]["Source"].ToString();
+                info.Money = dt.Rows[i]["Money"].ToString();
                 result.Add(info);
             }
             return result;
@@ -65,7 +66,7 @@ namespace BusinessInfoViewer.MySQLDAL
 
             StringBuilder sb = new StringBuilder();
             sb.Append("select business.*,(m.degree/");
-            sb.Append((keywordList.Count * 2).ToString());
+            sb.Append((keywordList.Count).ToString());
             sb.Append(")");
             sb.Append(" as dependcy from business,(select v.BusinessID,v.BusinessTitle,(");
             for (int i = 0; i < keywordList.Count; i++)
@@ -84,7 +85,7 @@ namespace BusinessInfoViewer.MySQLDAL
             }
             sb.Append(") as degree");
             sb.Append(
-                " from view_querykeyword as v) as m where business.BusinessID = m.BusinessID and degree>0.1 Order by degree desc");
+                " from view_querykeyword as v) as m where business.BusinessID = m.BusinessID and degree>=2 Order by m.degree desc");
             /*select business.*,(m.degree/2) as dependcy from business,(
               select v.BusinessID,v.BusinessTitle,
               (case WHEN LOCATE('地理信息',v.BusinessTitle)>0 then 1 ELSE 0 end +  
@@ -105,6 +106,7 @@ namespace BusinessInfoViewer.MySQLDAL
                     info.ReleaseTime = DateTime.Parse(dt.Rows[i]["ReleaseTime"].ToString());
                     info.DetileURL = dt.Rows[i]["DetileURL"].ToString();
                     info.Source = dt.Rows[i]["Source"].ToString();
+                    info.Money = dt.Rows[i]["Money"].ToString();
                     info.Degree = Convert.ToDouble(dt.Rows[i]["dependcy"]);
                     result.Add(info);
                 }

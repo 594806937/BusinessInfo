@@ -30,6 +30,7 @@ public partial class Index_sta : System.Web.UI.Page
         {
             new DataColumn("序号"),
             new DataColumn("相关度"),  
+            new DataColumn("项目金额"), 
             new DataColumn("项目名称"),
             new DataColumn("项目来源"), 
             new DataColumn("单位名称"),
@@ -41,6 +42,7 @@ public partial class Index_sta : System.Web.UI.Page
             DataRow row = dt.NewRow();
             row["序号"] = i;
             row["相关度"] = list[i].Degree;
+            row["项目金额"] = list[i].Money;
             row["项目名称"] = list[i].Title;
             row["项目来源"] = list[i].Source;
             row["单位名称"] = list[i].ComName;
