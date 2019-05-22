@@ -1,0 +1,2 @@
+2019-05-20 23:59:19,268 [17048] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:检测到100个待抓取页面，处理线程数:1
+2019-05-20 23:59:19,301 [17048] INFO  BusinessInfoSpider.Utility.AppLog [(null)] - 中国政府采购网:已启动第0个线程开始处理

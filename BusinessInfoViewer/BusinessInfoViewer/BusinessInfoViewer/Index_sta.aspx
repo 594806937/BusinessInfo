@@ -33,7 +33,8 @@
                 "columns": [
                     { "data": "title", "width": "40%" },
                     { "data": "degree", "width": "5%" },
-                    { "data": "com", "width": "20%" },
+                    { "data": "com", "width": "10%" },
+                    { "data": "location", "width": "10%" },
                     { "data": "date", "width": "5%" },
                     { "data": "money", "width": "10%" },
                     { "data": "source", "width": "10%" },
@@ -110,6 +111,9 @@
                                                     发布单位
                                                 </th>
                                                 <th>
+                                                    项目地点
+                                                </th>
+                                                <th>
                                                     发布时间
                                                 </th>
                                                 <th>
@@ -133,6 +137,9 @@
                                                 </th>
                                                 <th>
                                                     发布单位
+                                                </th>
+                                                <th>
+                                                    项目地点
                                                 </th>
                                                 <th>
                                                     发布时间

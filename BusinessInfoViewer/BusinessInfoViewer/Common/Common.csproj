@@ -172,6 +172,7 @@
     <Compile Include="StringPlus.cs" />
     <Compile Include="TimeParser.cs" />
     <Compile Include="UrlOper.cs" />
+    <Compile Include="XMLHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

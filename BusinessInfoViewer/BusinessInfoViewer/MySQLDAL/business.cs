@@ -309,6 +309,8 @@ namespace BusinessInfoViewer.MySQLDAL
         #endregion  BasicMethod
         #region  ExtensionMethod
 
+        
+
         #endregion  ExtensionMethod
     }
 }

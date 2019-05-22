@@ -29,6 +29,7 @@ namespace BusinessInfoSpider.WebSpider
         private int currentStep;//当前处理到第多少个
         private int successcount;//成功结果
         private int failcount;//失败结果
+        private int jumpcount;//跳过多少个
         /// <summary>
         /// 开始处理
         /// </summary>
@@ -36,7 +37,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             process = processcount;
             string dateNow = DateTime.Now.ToString("yyyy:MM:dd");
-            string dateBefore7Days = DateTime.Now.AddDays(-7).ToString("yyyy:MM:dd");
+            string dateBefore7Days = DateTime.Now.AddDays(-3).ToString("yyyy:MM:dd");
             //获取有多少个信息
             string firsturl = string.Format(@"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={0}&end_time={1}&timeType=2&displayZone=&zoneId=&pppStatus=0&agentName=", dateNow, dateBefore7Days);
             string firstpagehtml = GetHTML(firsturl);
@@ -112,15 +113,23 @@ namespace BusinessInfoSpider.WebSpider
                     if (aList.Length > 0)
                     {
                         info.Title = aList[0].Text().Replace('\n', ' ').Trim(' ');
+                        info.Source = Name;
                         info.DetileURL = aList[0].GetAttribute("href");
                     }
+
+                    if (JudegeInfoExist(info))
+                    {//判断是否已有信息
+                        continue;
+                    }
+
                     var spanList = liList[i].QuerySelectorAll("span");
                     string time = spanList[0].Text().Split('|')[0];
                     string midComName = spanList[0].Text().Split('|')[1].Replace('\n', ' ').Trim(' ');
                     info.ComName = midComName.Substring(midComName.IndexOf("：") + 1, midComName.Length - midComName.IndexOf("：") - 1);
                     info.ReleaseTime = DateTime.Parse(time);
+                    info.Location = GetXZQHByComname(info.ComName);
                     BuildDetileinfo(info);
-                    info.Source = Name;
+
 
                     bool insertSQL = InsertInfo(info);
                 }
@@ -135,9 +144,10 @@ namespace BusinessInfoSpider.WebSpider
             finally
             {
                 currentStep++;
-                AppLog.Info(string.Format("{0}/{1}已处理完成，成功:{2}，失败:{3}", currentStep, total, successcount, failcount));
+                AppLog.Info(string.Format("{0}/{1}已处理完成，成功:{2}，失败:{3},跳过{4}", currentStep, total, successcount, failcount, jumpcount));
             }
         }
+
         /// <summary>
         /// 获取详细信息
         /// </summary>

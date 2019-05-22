@@ -110,6 +110,9 @@ namespace BusinessInfoSpider.WebSpider
                 document.QuerySelectorAll("span")
                     .Where(span => span.GetAttribute("class") == "txt7")
                     .ToList();
+            string amt = document.QuerySelector("#amt").Text();
+            if (!string.IsNullOrEmpty(amt))
+                info.Money = (double.Parse(amt) / 10000).ToString();
             if (spanlist.Count <= 0)
                 return;
             for (int i = 0; i < spanlist.Count; i++)

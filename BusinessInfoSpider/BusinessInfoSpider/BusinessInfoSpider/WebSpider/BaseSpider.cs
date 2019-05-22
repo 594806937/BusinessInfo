@@ -98,6 +98,41 @@ namespace BusinessInfoSpider.WebSpider
         }
 
         /// <summary>
+        /// 根据发布单位名称获取该项目所在区域
+        /// </summary>
+        /// <param name="comName"></param>
+        /// <returns></returns>
+        protected virtual string GetXZQHByComname(string comName)
+        {
+            string result = "";
+            if (comName.Contains("区") && (!comName.Contains("自治区")))
+            {
+                result = comName.Substring(0, comName.IndexOf("区") + 1);
+            }
+            else if (comName.Contains("县"))
+            {
+                result = comName.Substring(0, comName.IndexOf("县") + 1);
+            }
+            else if (comName.Contains("市"))
+            {
+                result = comName.Substring(0, comName.IndexOf("市") + 1);
+            }
+            else if (comName.Contains("省"))
+            {
+                result = comName.Substring(0, comName.IndexOf("省") + 1);
+            }
+            else if (comName.Contains("大学") || comName.Contains("中学") || comName.Contains("小学"))
+            {
+                result = comName;
+            }
+            else
+            {
+                result = "解析失败";
+            }
+            return result;
+        }
+
+        /// <summary>
         /// 根据网络地址获取网页信息
         /// </summary>
         /// <param name="url">网页地址</param>

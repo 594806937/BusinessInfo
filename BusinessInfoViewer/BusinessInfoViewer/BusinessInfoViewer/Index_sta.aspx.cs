@@ -41,7 +41,7 @@ public partial class Index_sta : System.Web.UI.Page
         {
             DataRow row = dt.NewRow();
             row["序号"] = i;
-            row["相关度"] = list[i].Degree;
+            row["相关度"] = list[i].Degree.ToString("p");
             row["项目金额"] = list[i].Money;
             row["项目名称"] = list[i].Title;
             row["项目来源"] = list[i].Source;

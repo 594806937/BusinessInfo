@@ -124,6 +124,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BusinessInfo.cs" />
+    <Compile Include="Keyword.cs" />
     <Compile Include="SysNode.cs">
       <SubType>Code</SubType>
     </Compile>

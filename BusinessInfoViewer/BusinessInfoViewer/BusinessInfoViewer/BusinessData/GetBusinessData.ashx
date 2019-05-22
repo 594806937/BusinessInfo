@@ -35,6 +35,8 @@ public class GetBusinessData : IHttpHandler
             writer.WriteString((list[i].Degree.ToString("p")));
             writer.WriteMember("com");
             writer.WriteString(list[i].ComName);
+            writer.WriteMember("location");
+            writer.WriteString(list[i].Location);
             writer.WriteMember("date");
             writer.WriteString(list[i].ReleaseTime.ToShortDateString());
             writer.WriteMember("money");
