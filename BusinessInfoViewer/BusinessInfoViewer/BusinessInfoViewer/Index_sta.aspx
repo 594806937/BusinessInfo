@@ -31,18 +31,18 @@
                 "display": "row-border",
                 "pageLength": "20",
                 "columns": [
-                    { "data": "title", "width": "40%" },
-                    { "data": "degree", "width": "5%" },
+                    { "data": "title", "width": "30%" },
+                    { "data": "degree", "width": "10%" },
                     { "data": "com", "width": "10%" },
                     { "data": "location", "width": "10%" },
                     { "data": "date", "width": "5%" },
-                    { "data": "money", "width": "10%" },
+                    { "data": "money", "width": "15%" },
                     { "data": "source", "width": "10%" },
                     { "data": "url", "width": "10%" }
                 ],
                 "order": [1, 'desc'],
                 "columnDefs": [{
-                    "targets": 6,
+                    "targets": 7,
                     "data": "url",
                     "render": function (data, type, row, meta) {
                         return '<a href="' + data + '">查看招标详情</a>';

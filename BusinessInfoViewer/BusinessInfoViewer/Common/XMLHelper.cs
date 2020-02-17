@@ -12,7 +12,7 @@ namespace BusinessInfoViewer.Common
     /// </summary>
     public class XMLHelper
     {
-        private XmlDocument doc = new XmlDocument();
+        public XmlDocument doc = new XmlDocument();
         /// <summary>
         /// 构造函数，每个文件一个Helper
         /// </summary>
@@ -29,7 +29,7 @@ namespace BusinessInfoViewer.Common
                     }
                     catch (XmlException exception)
                     {
-                        GlobeParam.Log.Info(string.Format("读取配置文件{0}失败，错误信息{1}", xmlpath, exception.Message));
+
                     }
                 }
             }
@@ -57,6 +57,34 @@ namespace BusinessInfoViewer.Common
                     }
                 }
             }
+            return result;
+        }
+
+        /// <summary>
+        /// 根据节点名称和属性名称，获取属性值
+        /// </summary>
+        /// <param name="name">节点名称</param>
+        /// <param name="attr">属性名称</param>
+        /// <returns></returns>
+        public string GetAttrValue(string name, string attr)
+        {
+            string result = "";
+            if (doc == null)
+                return result;
+            XmlNode node = doc.SelectSingleNode("root");
+            if (node != null)
+            {
+                XmlNodeList nodeList = node.ChildNodes;
+                for (int i = 0; i < nodeList.Count; i++)
+                {
+                    if (nodeList[i].Name == name)
+                    {
+                        if (nodeList[i].Attributes["attr"] != null)
+                            result = nodeList[i].Attributes["attr"].Value;
+                    }
+                }
+            }
+
             return result;
         }
     }

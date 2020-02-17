@@ -21,6 +21,12 @@ namespace BusinessInfoViewer.IDAL
         /// <returns></returns>
         List<Model.BusinessInfoEx> SearchKeyWordEx(List<string> keywordList);
         /// <summary>
+        /// 根据关键字查询 可查询相关度
+        /// </summary>
+        /// <param name="keywordList">关键字List</param>
+        /// <returns></returns>
+        List<Model.BusinessInfoEx> SearchKeyWordEx(List<Keyword> keywordList);
+        /// <summary>
         /// 返回指定日期的带相关度的信息
         /// </summary>
         /// <param name="date"></param>

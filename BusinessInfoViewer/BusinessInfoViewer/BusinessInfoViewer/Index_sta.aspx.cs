@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Web;
+using System.Web.Caching;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml;
 using BusinessInfoViewer.Common;
+using BusinessInfoViewer.Model;
 
 public partial class Index_sta : System.Web.UI.Page
 {
@@ -16,15 +19,27 @@ public partial class Index_sta : System.Web.UI.Page
     protected void Export(object sender, EventArgs e)
     {
         BusinessInfoViewer.BLL.BusinessInfo bll = new BusinessInfoViewer.BLL.BusinessInfo();
-        string[] defaultkey = ConfigHelper.GetConfigString("KeyWords") == null ? null : ConfigHelper.GetConfigString("KeyWords").Split(';');
-        List<string> keywordList = new List<string>();
-        if (defaultkey == null)
-            defaultkey = new[] { "地理", "信息系统", "GIS", "软件", "国土调查", "测绘", "信息化" };
-        for (int i = 0; i < defaultkey.Length; i++)
+        List<Keyword> wordlist = new List<Keyword>();
+        if (HttpRuntime.Cache["Keywordlist"] == null)
         {
-            keywordList.Add(defaultkey[i]);
+            string xmlpath = HttpRuntime.AppDomainAppPath + "/config/Keyword.xml";
+            XMLHelper helper = new XMLHelper(xmlpath);
+            XmlNodeList nodelist = helper.doc.GetElementsByTagName("keyword");
+            for (int i = 0; i < nodelist.Count; i++)
+            {
+                Keyword word = new Keyword();
+                word.Name = nodelist[i].Attributes["name"].Value;
+                word.Weight = Convert.ToInt32(nodelist[i].Attributes["weight"].Value);
+                wordlist.Add(word);
+            }
+            Cache cache = System.Web.HttpRuntime.Cache;
+            cache.Insert("Keywordlist", wordlist);
         }
-        List<BusinessInfoViewer.Model.BusinessInfoEx> list = bll.SearchKeyWordEx(keywordList);
+        else
+        {
+            wordlist = (List<Keyword>)HttpRuntime.Cache["Keywordlist"];
+        }
+        List<BusinessInfoViewer.Model.BusinessInfoEx> list = bll.SearchKeyWordEx(wordlist);
         DataTable dt = new DataTable();
         dt.Columns.AddRange(new DataColumn[]
         {

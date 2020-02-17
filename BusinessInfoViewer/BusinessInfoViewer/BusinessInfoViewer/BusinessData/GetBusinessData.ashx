@@ -1,9 +1,15 @@
 ﻿<%@ WebHandler Language="C#" Class="GetBusinessData" %>
 
+using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Web;
+using System.Web.Caching;
+using System.Xml;
 using BusinessInfoViewer.Common;
+using BusinessInfoViewer.Model;
 using Jayrock.Json;
+using NPOI.Util;
 
 public class GetBusinessData : IHttpHandler
 {
@@ -12,16 +18,29 @@ public class GetBusinessData : IHttpHandler
     {
         context.Response.ContentType = "text/plain";
         BusinessInfoViewer.BLL.BusinessInfo bll = new BusinessInfoViewer.BLL.BusinessInfo();
-        string[] defaultkey = ConfigHelper.GetConfigString("KeyWords") == null ? null : ConfigHelper.GetConfigString("KeyWords").Split(';');
-        List<string> keywordList = new List<string>();
-        if (defaultkey == null)
-            defaultkey = new[] { "地理", "信息系统", "GIS", "软件", "国土调查", "测绘", "信息化" };
-        for (int i = 0; i < defaultkey.Length; i++)
+        List<Keyword> wordlist = new List<Keyword>();
+        if (HttpRuntime.Cache["Keywordlist"] == null)
         {
-            keywordList.Add(defaultkey[i]);
+            string xmlpath = HttpRuntime.AppDomainAppPath + "/config/Keyword.xml";
+            XMLHelper helper = new XMLHelper(xmlpath);
+            XmlNodeList nodelist = helper.doc.GetElementsByTagName("keyword");
+            for (int i = 0; i < nodelist.Count; i++)
+            {
+                Keyword word = new Keyword();
+                word.Name = nodelist[i].Attributes["name"].Value;
+                word.Weight = Convert.ToInt32(nodelist[i].Attributes["weight"].Value);
+                wordlist.Add(word);
+            }
+            Cache cache = System.Web.HttpRuntime.Cache;
+            cache.Insert("Keywordlist", wordlist);
         }
+        else
+        {
+            wordlist = (List<Keyword>)HttpRuntime.Cache["Keywordlist"];
+        }
+
         List<BusinessInfoViewer.Model.BusinessInfoEx> list =
-            bll.SearchKeyWordEx(keywordList);
+            bll.SearchKeyWordEx(wordlist);
         JsonTextWriter writer = new JsonTextWriter();
         writer.WriteStartObject();
         writer.WriteMember("data");

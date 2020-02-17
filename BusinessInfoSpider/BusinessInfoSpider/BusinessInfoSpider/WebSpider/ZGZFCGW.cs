@@ -37,7 +37,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             process = processcount;
             string dateNow = DateTime.Now.ToString("yyyy:MM:dd");
-            string dateBefore7Days = DateTime.Now.AddDays(-3).ToString("yyyy:MM:dd");
+            string dateBefore7Days = DateTime.Now.AddDays(-5).ToString("yyyy:MM:dd");
             //获取有多少个信息
             string firsturl = string.Format(@"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={0}&end_time={1}&timeType=2&displayZone=&zoneId=&pppStatus=0&agentName=", dateNow, dateBefore7Days);
             string firstpagehtml = GetHTML(firsturl);
@@ -73,7 +73,7 @@ namespace BusinessInfoSpider.WebSpider
         {
             int newindex = (int)index;
             string dateNow = DateTime.Now.ToString("yyyy:MM:dd");
-            string dateBefore7Days = DateTime.Now.AddDays(-7).ToString("yyyy:MM:dd");
+            string dateBefore7Days = DateTime.Now.AddDays(-5).ToString("yyyy:MM:dd");
             for (int i = newindex * (total / process) + 1; i <= (newindex + 1) * (total / process); i++)
             {
                 string url = string.Format(@"http://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index={0}&bidSort=0&buyerName=&projectId=&pinMu=0&bidType=1&dbselect=bidx&kw=&start_time={1}&end_time={2}&timeType=6&displayZone=&zoneId=&pppStatus=0&agentName=", i, dateNow, dateBefore7Days);

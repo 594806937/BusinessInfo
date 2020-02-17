@@ -41,5 +41,15 @@ namespace BusinessInfoViewer.BLL
             }
             return dal.SearchKeyWordEx(keywordList);
         }
+
+        /// <summary>
+        /// 根据关键字查询 可查询相关度
+        /// </summary>
+        /// <param name="keywordList">关键字List</param>
+        /// <returns></returns>
+        public List<Model.BusinessInfoEx> SearchKeyWordEx(List<Keyword> keywordList)
+        {
+            return dal.SearchKeyWordEx(keywordList);
+        }
     }
 }
