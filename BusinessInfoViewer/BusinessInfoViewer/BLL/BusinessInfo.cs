@@ -24,7 +24,9 @@ namespace BusinessInfoViewer.BLL
         {
             if (keywordList.Count == 0)
             {
-                keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "地灾", "测绘" };
+                //keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "地灾", "测绘" };
+                keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件" };
+                //keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "政务", "不动产", "互联网＋", "确权", "空间规划", "规划编制", "空间基础信息平台", "多规合一", "变更调查", "国土调查" };
             }
             return dal.SearchKeyWord(keywordList);
         }
@@ -37,7 +39,8 @@ namespace BusinessInfoViewer.BLL
         {
             if (keywordList.Count == 0)
             {
-                keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "地灾", "测绘" };
+                keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件" };
+                // keywordList = new List<string>() { "地理", "信息系统", "GIS", "软件", "政务", "不动产", "互联网＋", "确权", "空间规划", "规划编制", "空间基础信息平台", "多规合一", "变更调查", "国土调查" };
             }
             return dal.SearchKeyWordEx(keywordList);
         }

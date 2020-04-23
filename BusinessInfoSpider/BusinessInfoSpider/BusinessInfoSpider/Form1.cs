@@ -31,13 +31,15 @@ namespace BusinessInfoSpider
                 processcount = Convert.ToInt32(this.Txt_Process.Text);
 
             ZYZFCGW zyzfcgw = new ZYZFCGW();
+            ZYZFCGW_ZBGG zyzfcgw_zbgg = new ZYZFCGW_ZBGG();
             HBSZFCGW hbszfcgw = new HBSZFCGW();
             ZGZFCGW zgzfcgw = new ZGZFCGW();
 
             List<BaseSpider> analyseList = new List<BaseSpider>();
-            //analyseList.Add(zyzfcgw);
+            analyseList.Add(zyzfcgw);
+            //analyseList.Add(zyzfcgw_zbgg);
             //analyseList.Add(hbszfcgw);
-            analyseList.Add(zgzfcgw);
+            //analyseList.Add(zgzfcgw);
 
             for (int i = 0; i < analyseList.Count; i++)
             {

@@ -13,3 +13,14 @@ D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessIn
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.HPSF.dll
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.DDF.dll
 D:\1.项目\7.投标信息发布\Code\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\BusinessInfoViewer.Common.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\BusinessInfoViewer.Common.pdb
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.HSSF.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.POIFS.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.Util.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.HPSF.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\bin\Debug\NPOI.DDF.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\BusinessInfoViewer.Common.dll
+G:\BusinessInfo\555\BusinessInfo\BusinessInfoViewer\BusinessInfoViewer\Common\obj\Debug\BusinessInfoViewer.Common.pdb

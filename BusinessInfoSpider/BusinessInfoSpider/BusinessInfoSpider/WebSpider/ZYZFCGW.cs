@@ -15,7 +15,7 @@ namespace BusinessInfoSpider.WebSpider
     {
         public override string Name
         {
-            get { return "中央政府采购网"; }
+            get { return "中央政府采购网—招标公告"; }
         }
 
         public override string WebURL
