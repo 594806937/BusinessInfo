@@ -75,6 +75,82 @@ namespace BusinessInfoSpider.WebSpider
                 return true;
             return false;
         }
+
+
+        /// <summary>
+        /// 向数据库插入中标信息
+        /// </summary>
+        /// <param name="info">中标信息</param>
+        /// <returns>是否插入成功</returns>
+        protected bool InsertInfo(Bidding bidding)
+        {
+            if (JudegeInfoExist(bidding))
+                return true;
+
+            List<CommandInfo> commandList = new List<CommandInfo>();
+            CommandInfo insertBidding = new CommandInfo();
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("insert into bidding(");
+            strSql.Append("BusinessID,BusinessTitle,ProjectID,ReleaseCom,Money,Supplier,ReleaseLocation,ReleaseTime,DetileURL,Source,XZQHMC,UpdateTime)");
+            strSql.Append(" values (");
+            strSql.Append("@BusinessID,@BusinessTitle,@ProjectID,@ReleaseCom,@Money,@Supplier,@ReleaseLocation,@ReleaseTime,@DetileURL,@Source,@XZQHMC,@UpdateTime)");
+            MySqlParameter[] parameters = {
+					new MySqlParameter("@BusinessID", MySqlDbType.VarChar,50),
+					new MySqlParameter("@BusinessTitle", MySqlDbType.VarChar,200),
+					new MySqlParameter("@ProjectID", MySqlDbType.VarChar,200),
+					new MySqlParameter("@ReleaseCom", MySqlDbType.VarChar,200),
+					new MySqlParameter("@Money", MySqlDbType.VarChar,150),
+					new MySqlParameter("@Supplier", MySqlDbType.VarChar,200),
+					new MySqlParameter("@ReleaseLocation", MySqlDbType.VarChar,200),
+					new MySqlParameter("@ReleaseTime", MySqlDbType.Date),
+					new MySqlParameter("@DetileURL", MySqlDbType.VarChar,500),
+					new MySqlParameter("@Source", MySqlDbType.VarChar,50),
+					new MySqlParameter("@XZQHMC", MySqlDbType.VarChar,50),
+					new MySqlParameter("@UpdateTime", MySqlDbType.Timestamp)};
+            parameters[0].Value = bidding.BusinessID;
+            parameters[1].Value = bidding.BusinessTitle;
+            parameters[2].Value = bidding.ProjectID;
+            parameters[3].Value = bidding.ReleaseCom;
+            parameters[4].Value = bidding.Money;
+            parameters[5].Value = bidding.Supplier;
+            parameters[6].Value = bidding.ReleaseLocation;
+            parameters[7].Value = bidding.ReleaseTime;
+            parameters[8].Value = bidding.DetileURL;
+            parameters[9].Value = bidding.Source;
+            parameters[10].Value = bidding.XZQHMC;
+            parameters[11].Value = bidding.UpdateTime;
+
+            insertBidding.CommandText = strSql.ToString();// "Insert Into business(BusinessID,BusinessTitle,ReleaseCom,Money,ReleaseLocation,ReleaseTime,DetileURL,Source) Values (?BusinessID,?BusinessTitle,?ReleaseCom,?Money,?ReleaseLocation,?ReleaseTime,?DetileURL,?Source);";
+
+
+            insertBidding.Parameters = parameters;
+            commandList.Add(insertBidding);
+
+            CommandInfo insertDetile = new CommandInfo();
+            insertDetile.CommandText = "Insert Into bidddetile(DetileID,BusinessID,DetileURL,Content) Values(?DetileID,?BusinessID,?DetileURL,?Content);";
+            MySqlParameter[] insertDetileParameters =
+            {
+                new MySqlParameter("DetileID",MySqlDbType.VarChar,50),
+                new MySqlParameter("BusinessID",MySqlDbType.VarChar,50),
+                new MySqlParameter("DetileURL",MySqlDbType.VarChar,500),
+                new MySqlParameter("Content",MySqlDbType.VarChar,5000)
+            };
+            insertDetileParameters[0].Value = Guid.NewGuid().ToString();
+            insertDetileParameters[1].Value = bidding.BusinessID;
+            insertDetileParameters[2].Value = bidding.DetileURL ?? "";
+            bidding.Content = bidding.Content.Length > 20000 ? bidding.Content.Substring(0, 20000) : bidding.Content;
+            insertDetileParameters[3].Value = bidding.Content ?? "";
+            insertDetile.Parameters = insertDetileParameters;
+            commandList.Add(insertDetile);
+            int result = DbHelperMySQL.ExecuteSqlTran(commandList);
+
+            if (result > 0)
+                return true;
+            return false;
+        }
+
+
         /// <summary>
         /// 判断改数据是否存在，存在则不再保存
         /// </summary>
@@ -91,6 +167,28 @@ namespace BusinessInfoSpider.WebSpider
             };
             getinfoParameters[0].Value = info.Source;
             getinfoParameters[1].Value = info.Title;
+            object infoobj = DbHelperMySQL.GetSingle(SQL_GetInfo, getinfoParameters);
+            if (infoobj != null) //如果已经有了该数据
+                return true;
+            return false;
+        }
+
+        /// <summary>
+        /// 判断该中标数据是否存在，存在则不再保存 
+        /// </summary>
+        /// <param name="bidding"></param>
+        /// <returns></returns>
+        protected bool JudegeInfoExist(Bidding bidding)
+        {
+            string SQL_GetInfo =
+                "Select * From bidding where bidding.Source=?Source and bidding.BusinessTitle=?BusinessTitle";
+            MySqlParameter[] getinfoParameters = new MySqlParameter[]
+            {
+                new MySqlParameter("Source", MySqlDbType.VarChar, 50),
+                new MySqlParameter("BusinessTitle", MySqlDbType.VarChar, 200)
+            };
+            getinfoParameters[0].Value = bidding.Source;
+            getinfoParameters[1].Value = bidding.BusinessTitle;
             object infoobj = DbHelperMySQL.GetSingle(SQL_GetInfo, getinfoParameters);
             if (infoobj != null) //如果已经有了该数据
                 return true;
@@ -141,6 +239,13 @@ namespace BusinessInfoSpider.WebSpider
         {
             string result = "";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+            Random r = new Random();
+            int rndnum = r.Next(1000, 20000);
+            System.Threading.Thread.Sleep(rndnum);
+            request.UseDefaultCredentials = true;
+            request.ProtocolVersion = HttpVersion.Version10;
+
             request.Timeout = 180000;//180秒钟获取
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream htmlStream = response.GetResponseStream();
@@ -184,6 +289,15 @@ namespace BusinessInfoSpider.WebSpider
         /// <param name="info">招标详细信息地址</param>
         /// <returns>相应内容</returns>
         protected virtual void BuildDetileinfo(BusinessInfo info)
+        {
+        }
+
+        /// <summary>
+        /// 根据招标详细信息地址获取中标详细信息
+        /// </summary>
+        /// <param name="info">招标详细信息地址</param>
+        /// <returns>相应内容</returns>
+        protected virtual void BuildDetileinfo(Bidding bidding)
         {
         }
     }

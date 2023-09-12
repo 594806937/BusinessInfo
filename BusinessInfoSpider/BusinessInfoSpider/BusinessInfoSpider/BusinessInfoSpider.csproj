@@ -134,6 +134,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Bidding.cs" />
     <Compile Include="Model\BusinessInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,6 +144,7 @@
     <Compile Include="WebSpider\BaseSpider.cs" />
     <Compile Include="WebSpider\HBSZFCGW.cs" />
     <Compile Include="WebSpider\ZGZFCGW.cs" />
+    <Compile Include="WebSpider\ZYZFCGW-ZBGG.cs" />
     <Compile Include="WebSpider\ZYZFCGW.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -162,8 +164,11 @@
     </None>
     <None Include="log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

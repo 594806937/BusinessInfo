@@ -72,7 +72,7 @@
       <div class="collapse navbar-collapse" id="collapsed_humbeger">
         <!-- todo 响应式套航条按钮-->
         <ul class="nav navbar-nav" id="nav_col">
-          <li class="active"><a href="Index_sta.aspx">商机抓取数据</a></li>
+          <li class="active"><a href="Index_sta.aspx">商机抓取数据-中央政府采购网</a></li>
         </ul>
         <!-- todo 搜索表单-->
         <form class="navbar-form navbar-right" runat="server" role="search">
